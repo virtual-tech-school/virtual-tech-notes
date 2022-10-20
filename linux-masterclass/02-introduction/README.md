@@ -1,0 +1,1 @@
+No notes available. Contribute notes based on [this](https://www.youtube.com/watch?v=Juo_0lpBMPY&list=PL2kSRH_DmWVZp_cu6MMPWkgYh7GZVFS6i&index=2) video now!
