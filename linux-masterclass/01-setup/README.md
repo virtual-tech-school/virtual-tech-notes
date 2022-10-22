@@ -16,3 +16,7 @@ This displays 2 columns -
 
 1. The name of the distribution.
 2. Friendly name for it.
+
+You can then simply run -
+
+`wsl --install -d <distro>`
