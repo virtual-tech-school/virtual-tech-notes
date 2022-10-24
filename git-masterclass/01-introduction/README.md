@@ -1,6 +1,6 @@
 # Contents
 
--[01 What is Git ?](#01-what-is-git)
+- [01 What is Git ?](#01-what-is-git)
 
 - [02 Version Control System (VCS)](#02-version-control-system-vcs)
 - [03 Types of Version Control System (VCS)](#03-types-of-version-control-system-vcs)
