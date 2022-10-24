@@ -1,3 +1,7 @@
+Contribute notes based on [this](https://www.youtube.com/watch?v=LQ2LTPHeTts&list=PL2kSRH_DmWVajYgFoP-HVKK5VKkzFYyzp&index=1) video now!
+
+
+
 # Contents
 
 - [01 What is Git ?](#01-what-is-git)
