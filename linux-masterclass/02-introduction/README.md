@@ -1,4 +1,4 @@
-Contribute notes based on [this](https://www.youtube.com/watch?v=Juo_0lpBMPY) video now!
+  Contribute notes based on [this](https://www.youtube.com/watch?v=Juo_0lpBMPY) video now!
 
 ## What happens when your start a computer?
 
@@ -36,7 +36,7 @@ It is also known is Bridge between *==Software==* and *==Hardware.==*
 - Mac OS (Only on apple)
 - Linux (UNIX based)
 - Android 
-- IOS "(iPhone Operating system)
+- IOS (iPhone Operating system)
 
 # Why use Linux
  - Open Source 
