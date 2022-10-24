@@ -45,3 +45,63 @@ It is also known is Bridge between *==Software==* and *==Hardware.==*
  - Terminal is superior to CMD
  - Bash Scripting 
  - SSH
+
+  ## History of Linux?
+ 
+  In **1969** First unix OS created by Ken Thompson and Dennis Richie
+  10 years Later Richard Stallman started working on GNU project (BSD , MINIX, etc)
+  In **1991** Linux Torvalds started working *Linux Kernel.*  The kernel was use in every linux distro..
+
+  ## Linux Torvalds is a father of *Linux*  
+---
+
+### Linux Distribution ( Which one to )
+ - Ubuntu
+ - Fedora
+ - Arch
+ - Kali Linux
+ - Pop OS
+# And many more 
+
+***U can choose any distro as per ur interest***
+
+# I am using Ubuntu
+
+### Why i used *Ubuntu *  rather than any other
+- It is Beginner Friendly
+- It have a decent UI (user interface)
+- Ease to use for non-programmer also
+
+## Fun fact : Linux is all about of Keyboard
+
+## What is Terminal?
+
+A terminal(black window) is a tool where we going to write our command
+*Start terminal using this command*
+ `ctrl+alt+t`,
+ or u can press windows button and type terminal
+ 
+ ## What is SHELL ?
+ A *shell* is a command line interpreter. It excutes command line by line thats why it is *Interpreter* . 
+ 
+ *Just like how Python (a programming language) works..
+ 
+ ## What is BASH Programming ?
+ 
+ Every command we are writting on the terminal it is a BASH language 
+ 
+ ## Shell Format
+ `apoorvgoyal@apoorvtwts:~$`
+  this is the format of shell 
+  lets understand what all this means
+  
+  `apoorvgoyal` : It is a username of my device
+  `@apoortwts` : It is known as Host name
+  `~` : Tilde. It represent home directory
+  `$` : after this u can start writting command
+  
+## Printing "Hello World" in terminal
+ `echo "Hello World" `
+  
+  ## pwd (Print Working Directory)
+  `pwd`
