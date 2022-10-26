@@ -2,13 +2,17 @@ Contribute notes based on [this](https://www.youtube.com/watch?v=fkKfKsASjV4&lis
 
 ## List of Basic Commands 
 
-`git init` : initialize Git repo
-`git add` : Add files to staged area 
-`git branch` : Check Branch
-`git checkout` : Switch between branches
-`git clone` : Clone the remote repo
-`git commit -m` : Commit changes
-`git log` : History of commits
-`git status` : Display the state of working directory
-`git merge` : Merge the branches to main/master (only when u r owner of the repo )
-`git push` : Push the local changes to remote
+|                Task                          |          Command                 |
+|----------------------------------------------|----------------------------------|
+|Initializing a repository                     |`git init`                        |
+|Stages a single file                          |`git add filename.js `            |
+|Viewing the status                            |`git status`                      |
+|Commits with a one-line message               |`git commit -m "Message"`         |
+|Creates a new branch                          |`git branch branchName `          |
+|Switches to the another branch                |`git checkout branchName`         |
+|Deletes the  branch                           |`git branch -d branchName`        |
+|Merge branch into the current branch          |`git merge branchName `           |
+|Pushes branch to origin                       |`git push -u origin branchName`   |
+|Cloning a repository                          |`git clone repoUrl`               |
+|Adds a new remote called upstream             |`git remote add upstream url `    |
+|Push the local changes to remote              |`git push `                       |
