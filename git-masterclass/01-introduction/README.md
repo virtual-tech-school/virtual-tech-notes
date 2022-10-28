@@ -27,53 +27,53 @@ Git is a **Version Control System (VCS)** for your files
 - Helps in indentification of who modified the files that is causing some issue
 - Helps in identification of who introduced an issue and when
 
-## 02 Version Control System (VCS)
+# 02 Version Control System (VCS)
 
-- Version control, also known as source control, is the practice of tracking and managing changes to software code
-- Version control systems are software tools that help software teams manage changes to source code over time
-- Version control software keeps track of every modification to the code in a special kind of database
-- If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption
+- Version control, also known as source control, is the practice of tracking and managing changes to software code.
+- Version control systems are software tools that help software teams manage changes to source code over time.
+- Version control software keeps track of every modification to the code in a special kind of database.
+- If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption.
 
-## 03 Types of Version Control System (VCS)
+# 03 Types of Version Control System (VCS)
 
 ### 1. Local Version Control System
 
-- Contains the Version Database located on your computer
-- Every file change is stored as a patch
-- Every patch set contains only the changes made to the file since its last version
+- Contains the Version Database located on your computer.
+- Every file change is stored as a patch.
+- Every patch set contains only the changes made to the file since its last version.
 
 #### Problems:-
 
-- Since , stored locally collaboration with other developer or a team is not possible
-- If anything happens to local database , all the patches would be lost
-- If anything happens to single version , alll the changess made after that version would be lost
+- Since , stored locally collaboration with other developer or a team is not possible.
+- If anything happens to local database , all the patches would be lost.
+- If anything happens to single version , alll the changess made after that version would be lost.
 
 ### 2. Centralized Version Control System
 
-- Contains a single server that contains all the file versions
-- Allows multiple clients to simultaneously access files on the server
-- Allows to pull files to their local computer or push onto server from their local computer
-- Administrator have control over who can co what
-- Allows for easy collaboration with other developer or a team
+- Contains a single server that contains all the file versions.
+- Allows multiple clients to simultaneously access files on the server.
+- Allows to pull files to their local computer or push onto server from their local computer.
+- Administrators have control over who can do what and what not.
+- Allows for easy collaboration with other developer or a team.
 
 #### Problems:-
 
-- Single point of failure
+- Single point of failure.
 - As everything is stored on the centralized server. If something were to happen to that server, nobody can save their versioned changes, pull files or collaborate at all.
 - If the central database became corrupted, and backups haven't been kept, you lose the entire history of the project except whatever single snapshots people happen to have on their local machines.
 
 ### 3. Distributed Version Control System
 
-- Clients don’t just check out the latest snapshot of the files from the server, they fully mirror the repository, including its full history
-- Everyone collaborating on a project owns a local copy of the whole project, i.e. owns their own local database with their own complete history
-- If the server becomes unavailable or dies, any of the client repositories can send a copy of the project's version to any other client or back onto the server when it becomes available
+- Clients don’t just check out the latest snapshot of the files from the server, they fully mirror the repository, including its full history.
+- Everyone collaborating on a project owns a local copy of the whole project, i.e. owns their own local database with their own complete history.
+- If the server becomes unavailable or dies, any of the client repositories can send a copy of the project's version to any other client or back onto the server when it becomes available.
 - It is enough that one client contains a correct copy which can then easily be further distributed.
 
 #### Example :-
 
-Git is the most well-known example of distributed version control systems
+Git is the most well-known example of Distributed Version Control System (DVC sys).
 
-## 04 How was Git created ?
+# 04 How was Git created ?
 
 As with many great things in life, Git began with a bit of creative destruction and fiery controversy.
 
@@ -89,15 +89,15 @@ In 2005, the relationship between the community that developed the Linux kernel 
 
 Since its birth in 2005, Git has evolved and matured to be easy to use and yet retain these initial qualities. It’s amazingly fast, it’s very efficient with large projects, and it has an incredible branching system for non-linear development
 
-## 05 How Git is different from other Version Control System ?
+# 05 How Git is different from other Version Control System ?
 
-## 1. Snapshorts, Not Differences
+## 1. Snapshots, not Differences
 
-- ##### Others:
+- #### Others:
 
   - Most other systems store information as a list of file-based changes. These other systems think of the information they store as a set of files and the changes made to each file over time.
 
-- ##### Git:
+- #### Git:
   - Git thinks of its data more like a series of snapshots of a miniature filesystem
   - With Git, every time you commit, or save the state of your project, Git basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot
   - To be efficient, if files have not changed, Git doesn’t store the file again, just a link to the previous identical file it has already stored. Git thinks about its data more like a **stream of snapshots**.
@@ -113,19 +113,18 @@ To browse the history of the project, Git doesn’t need to go out to the server
 
 ## 3. Git Has Integrity
 
-- Everything in Git is checksummed before it is stored and is then referred to by that checksum
-- This means it’s impossible to change the contents of any file or directory without Git knowing about it
-- The mechanism that Git uses for this checksumming is called a SHA-1 hash
-- This is a 40-character string composed of hexadecimal characters (0–9 and a–f) and
-- Calculated based on the contents of a file or directory structure in Git.
+- Everything in Git is checksummed before it is stored and is then referred to by that checksum.
+- This means it’s impossible to change the contents of any file or directory without Git knowing about it.
+- The mechanism that Git uses for this checksumming is called a SHA-1 hash.
+- This is a 40-character string composed of hexadecimal characters (0–9 and a–f) and calculated based on the contents of a file or directory structure in Git.
 - A SHA-1 hash looks something like this:
 
 ```
 24b9da6552252987aa493b52f8696cd6d3b00373
 ```
 
-### 4. Git Generally Only Adds Data
+## 4. Git Generally Only Adds Data
 
-- When you do actions in Git, nearly all of them only _add_ data to the Git database
-- It is hard to get the system to do anything that is not undoable or to make it erase data in any way
-- After you commit a snapshot into Git, it is very difficult to lose, especially if you regularly push your database to another repository
+- When you do actions in Git, nearly all of them only _add_ data to the Git database.
+- It is hard to get the system to do anything that is not undoable or to make it erase data in any way.
+- After you commit a snapshot into Git, it is very difficult to lose, especially if you regularly push your database to another repository.
