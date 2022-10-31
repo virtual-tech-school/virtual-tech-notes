@@ -1,7 +1,7 @@
 Contribute notes based on [this](https://www.youtube.com/watch?v=fkKfKsASjV4&list=PL2kSRH_DmWVajYgFoP-HVKK5VKkzFYyzp&index=2) video now!
 
-
 # Contents
+
 - [Architechure of Git](#architechure-of-git)
   - [The Three States](#the-three-states)
   - [The basic Git workflow](#the-basic-git-workflow-goes-something-like-this)
@@ -315,3 +315,4 @@ usage: git add [<options>] [--] <pathspec>...
 | Cloning a repository                 | `git clone repoUrl`             |
 | Adds a new remote called upstream    | `git remote add upstream url `  |
 | Push the local changes to remote     | `git push `                     |
+
