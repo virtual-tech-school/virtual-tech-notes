@@ -309,5 +309,3 @@ usage: git add [<options>] [--] <pathspec>...
 `git status` : Display the state of working directory
 `git merge` : Merge the branches to main/master (only when u r owner of the repo )
 `git push` : Push the local changes to remote
-
-> > > > > > > dev
