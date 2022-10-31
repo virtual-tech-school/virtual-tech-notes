@@ -14,7 +14,7 @@ It is a program that responsible for intializing the *Operating System.*
  
  An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs. 
  
- ## Things is present is every OS?
+ ## Things are present in every OS?
 
  - Kernel
  - File system
@@ -29,7 +29,7 @@ Method or Data Structure that the OS use to store and retrieve the data in the m
 
 ## What is kernel?
 The kernel is a core component of an operating system and serves as the main interface between the computer's physical hardware and the processes running on it. 
-It is also known is Bridge between *==Software==* and *==Hardware.==*
+It is also known as Bridge between *==Software==* and *==Hardware.==*
 
 ## What are Most Popular OS ?
 - Microsoft Windows
@@ -40,19 +40,19 @@ It is also known is Bridge between *==Software==* and *==Hardware.==*
 
 # Why use Linux
  - Open Source 
- - Support almost all *Programming Language*
+ - Support almost all *Programming Languages*
  - Developer Friendly
  - Terminal is superior to CMD
  - Bash Scripting 
- - SSH
+ - SSH (Secure Shell)
 
   ## History of Linux?
  
-  In **1969** First unix OS created by Ken Thompson and Dennis Richie
+  In **1969** First unix OS created by Ken Thompson and Dennis M. Ritchie
   10 years Later Richard Stallman started working on GNU project (BSD , MINIX, etc)
-  In **1991** Linux Torvalds started working *Linux Kernel.*  The kernel was use in every linux distro..
+  In **1991** Linus Torvalds started working *Linux Kernel.*  The kernel was use in every linux distro..
 
-  ## Linux Torvalds is a father of *Linux*  
+  ## Linus Torvalds is a father of *Linux*  
 ---
 
 ### Linux Distribution ( Which one to )
@@ -76,7 +76,7 @@ It is also known is Bridge between *==Software==* and *==Hardware.==*
 
 ## What is Terminal?
 
-A terminal(black window) is a tool where we going to write our command
+A terminal(black window) is a tool where we are going to write our command
 *Start terminal using this command*
  `ctrl+alt+t`,
  or u can press windows button and type terminal
