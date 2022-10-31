@@ -82,7 +82,7 @@ A terminal(black window) is a tool where we are going to write our command
  or u can press windows button and type terminal
  
  ## What is SHELL ?
- A *shell* is a command line interpreter. It excutes command line by line thats why it is *Interpreter* . 
+ A *shell* is a command line interpreter. It executes command line by line thats why it is *Interpreter* . 
  
  *Just like how Python (a programming language) works..
  
