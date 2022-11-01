@@ -105,3 +105,31 @@ A terminal(black window) is a tool where we going to write our command
   
   ## pwd (Print Working Directory)
   `pwd`
+
+ ## File Structure in ***Linux***
+ The Linux File Hierarchy Structure or the Filesystem Hierarchy Standard (FHS) defines the directory structure and directory contents in Unix-like operating systems. It is maintained by the Linux Foundation.
+ 
+ ![image](https://www.linuxtrainingacademy.com/wp-content/uploads/2014/03/linux-folders.jpg)
+ ### if u wanna know in depth then [Go follow this Link](https://www.geeksforgeeks.org/linux-file-hierarchy-structure/)
+   
+   
+## Path of a Directory
+Suppose u have to go `/home` directory *in the above diagram* How will u go in terminal
+
+U can use this way `cd ~/home`
+
+## Basics Commands in Linux
+|                Task                          |          Command                 |
+|----------------------------------------------|----------------------------------|
+|List items                                    |`ls`                              |
+|Changed Directory                             |`cd <Directory name> `            |
+|Clean the terminal                            |`clear`                           |
+|Make Directory                                |`mkdir <Directory name`           |
+|Make file                                     |`touch <File name`                |
+|Open file in Terminal                         |`cat <file name>`                 |
+|History of the                                |`history`                         |
+|Short discription of the command              |`whatis <command>`                |
+|Remove Directory                              |`rmdir <directory name>`          |
+|Copy File or Directory                        |`cp <directory/file name>`        |
+|Move File or Directory                        |`mv <directory/file name>    `    |
+|Opens a text editor                           |`gedit <file name>`               |
