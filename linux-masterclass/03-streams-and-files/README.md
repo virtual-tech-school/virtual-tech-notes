@@ -1,82 +1,76 @@
 Contribute notes based on [this](https://www.youtube.com/watch?v=xVaC_G6aeH0&list=PL2kSRH_DmWVZp_cu6MMPWkgYh7GZVFS6i&index=3) video now!
 
-# 3 standard streams.
+## **3 standard streams.** ## 
 
-What happens when we execute a command?
-Linux by default has 3 standard streams.
-## stdin (standard input)   code - 0
-## stdout (standard output) code - 1
-## stderr (standard error)  code - 2 
-Streams job is to transfer data (simple text)
-It takes input and gives output.
-1. output can be in terminal.
-2. in some file.
-3. or in pipe -> which redirects it.
-if you want to redirect > symbol is used.
-eg. ls > output.txt
-this command overwrites the data.
-to append 
-ls >> output.txt   is used.
+What happens when we execute a command? Linux by default has 3 standard streams:
+<ul>
+ <li> stdin (standard input)   code - 0</li>
+ <li>stdout (standard output) code - 1</li>
+ <li> stderr (standard error)  code - 2</li> 
+</ul>
+Stream's job is to transfer data (simple text), takes input and gives output.<br>
+<ul>
+<li> output can be in terminal.</li>
+<li> in some file.</li>
+<li> or in pipe which redirects it.</li>
+</ul>
+If you want to redirect, (>) this symbol is used.
+Eg : <code>ls > output.txt</code>
+this command overwrites the data.<br> To append the data, 
+<code>ls >> output.txt</code> is used.
 
-## stderr
-lg > output.txt
-this command gives error.
-to tackle this 
-lg 2> output is used 
-because error is denoted by 2.
+## **stderr**
+Now the <code>lg > output.txt</code> command gives an error, to tackle this 
+<code>lg 2> output.txt</code> is used because error is denoted by 2.
 
-lg 2> /dev/null --> to nullify error.
+> lg 2> /dev/null : to nullify error.
 
-### less
-opens output in seperate window.
-eg. less /var/log/syslog.
+## **less**
+Opens output in seperate window.
+Eg: <code>less /var/log/syslog</code>
 
-To view large files without populating your terminal.
+To view large files without populating your terminal. Do <code>ls -la /etc | less</code>
 
-ls -la /etc | less
+## **pipe** 
+Takes input of one command and feeds it to next command as standard input.
 
-# pipe 
-takes input of one command and feeds it to next command as standard input.
+## **Environment Variables**
+It store and provide useful information that shells and processes can use.
 
-## environment variables 
-stores and provides useful information that shells and processes can use.
-
-pwd - gives present working directory.
-Maintains a present working directory.
-Path environment variable - contains all the path that your pc 
+**pwd** - gives present working directory.
+Maintains a present working directory.<br>
+**Path environment variable** - contains all the path that your pc 
 will search whenever you enter a command.
-### Everything in linux is file even the commands.
+> Everything in linux is file even the commands.
 
-# Some commands.
-1. head -> prints first 10 lines of file 
-eg head output.txt 
-eg head -n 15 output.txt (prints first 15 lines of file)
+## **Some commands.**
+<ol>
+    <li> <strong>head</strong> : prints first 10 lines of file. <br>
+eg : <code>head output.txt</code>. <br>
+eg : <code>head -n 15 output.txt</code> (prints first 15 lines of file)</li>
 
-2. tail -> prints last 10 lines of file 
-eg tail output.txt 
-eg tail -n 15 output.txt (prints last 15 lines of file)
+<li> <b>tail</b> : prints last 10 lines of file .<br>
+eg : <code>tail output.txt</code> <br> 
+eg : <code>tail -n 15 output.txt</code> (prints last 15 lines of file)</li>
 
-3. sort gives sorted version of the file.
-eg sort testing.txt
-eg sort -r testing.txt (reverse sort)
+<li> <b>sort</b> gives sorted version of the file.<br>
+eg : <code>sort testing.txt</code><br>
+eg : <code>sort -r testing.txt</code> is for reverse sorting.</li>
 
-4. translate 
-eg cat testing.txt | tr a-z A-Z (from lowercase to uppercase)
+<li> <b>translate</b> <br>
+eg : <code>cat testing.txt | tr a-z A-Z</code> (from lowercase to uppercase)</li>
 
-5. uniq 
-gives unique value in a file
-eg uniq testing.txt
-eg uniq -c testing.txt (gives no of occurance)
+<li> <b>uniq</b> gives unique value in a file.<br>
+eg : <code>uniq testing.txt</code><br>
+eg : <code>uniq -c testing.txt</code> (gives number of occurances).</li>
 
-drawback -> only works wheb duplicates are next to each other.
+>Drawback: only works when the duplicate words are next to each other.
 
-6. wc (word count)
-eg wc testing.txt (gives no of lines , words , letters in the file)
+<li><b> wc</b> (word count)<br>
+eg : <code>wc testing.txt</code> (gives no of lines, words, letters in the file)</li>
  
-7. grep 
-allows you to search file for characters 
-eg. env | grep PWD
-works with regular expression.
-
+<li> <b>grep</b> used in searching and matching text files contained in the regular expressions. <br>
+eg : <code>env | grep PWD</code>
+</ol>
 
 
