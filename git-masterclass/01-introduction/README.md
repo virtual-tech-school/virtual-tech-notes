@@ -4,15 +4,15 @@ Contribute notes based on [this](https://www.youtube.com/watch?v=LQ2LTPHeTts&lis
 
 # Contents
 
-- [01 What is Git ?](#01-what-is-git)
+- [01 What is Git ?](#01-what-is-git-)
 
 - [02 Version Control System (VCS)](#02-version-control-system-vcs)
 - [03 Types of Version Control System (VCS)](#03-types-of-version-control-system-vcs)
   - [Local Version Control System](#1-local-version-control-system)
   - [Centralized Version Control System](#2-centralized-version-control-system)
   - [Distributed Version Control System](#3-distributed-version-control-system)
-- [04 How was Git created ?](#04-how-was-git-created)
-- [05 How Git is different from other Version Control System ?](#05-how-git-is-different-from-other-version-control-system)
+- [04 How was Git created ?](#04-how-was-git-created-)
+- [05 How Git is different from other Version Control System ?](#05-how-git-is-different-from-other-version-control-system-)
   - [Snapshorts, Not Differences](#1-snapshorts-not-differences)
   - [Nearly Every Operation Is Local](#2-nearly-every-operation-is-local)
   - [Git Has Integrity](#3-git-has-integrity)
