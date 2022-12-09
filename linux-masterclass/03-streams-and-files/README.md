@@ -30,6 +30,7 @@ Opens output in seperate window.
 Eg: <code>less /var/log/syslog</code>
 
 To view large files without populating your terminal. Do <code>ls -la /etc | less</code>
+to close the seperate window press "q"
 
 ## **pipe** 
 Takes standard output of one command and feeds it to the next command as standard input.
