@@ -30,9 +30,10 @@ Opens output in seperate window.
 Eg: <code>less /var/log/syslog</code>
 
 To view large files without populating your terminal. Do <code>ls -la /etc | less</code>
+to close the seperate window press "q"
 
 ## **pipe** 
-Takes input of one command and feeds it to next command as standard input.
+Takes standard output of one command and feeds it to the next command as standard input.
 
 ## **Environment Variables**
 It store and provide useful information that shells and processes can use.
