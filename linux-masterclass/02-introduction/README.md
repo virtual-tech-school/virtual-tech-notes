@@ -58,7 +58,7 @@ ___
   In **1969** First unix OS created by <u>*Ken Thompson*</u> and <u>*Dennis M. Ritchie*</u>
   10 years later <u>*Richard Stallman*</u> started working on GNU project (BSD , MINIX, etc).
 
-  In **1991** <u>*Linus Torvalds* </u>started working on the "Linux Kernel". This kernel was use in every linux distribution.
+  In **1991** <u>*Linus Torvalds* </u>started working on the "Linux Kernel". This kernel was used in every linux distribution.
 
 >Linus Torvalds is a father of *Linux*  
 
