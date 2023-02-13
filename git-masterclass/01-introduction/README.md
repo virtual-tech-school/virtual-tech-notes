@@ -46,7 +46,7 @@ Git is a **Version Control System (VCS)** for your files
 
 - Since , stored locally collaboration with other developer or a team is not possible.
 - If anything happens to local database , all the patches would be lost.
-- If anything happens to single version , alll the changess made after that version would be lost.
+- If anything happens to single version , all the changess made after that version would be lost.
 
 ### 2. Centralized Version Control System
 
