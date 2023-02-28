@@ -15,8 +15,8 @@ Tags are not case sensitive (good practice to do all in smallcase)
 <hr>
 
 ## **Understanding boilerplate of HTML** ##
-1.<code> &lt !DOCTYPE html &gt </code> tells the browser that this is an html document.<br>
-2.<code> &lthtml lang="en"&gt </code>  the root tag of a html document.<br> 
+1.<code> &lt;!DOCTYPE html&gt; </code> tells the browser that this is an html document.<br>
+2.<code> &lt;html lang="en"&gt; </code>  the root tag of a html document.<br> 
   It contains two main tags
 <ol>
  <li> head tag (which contains metadata/information about the document like title,description,charset,link etc).</li> 
