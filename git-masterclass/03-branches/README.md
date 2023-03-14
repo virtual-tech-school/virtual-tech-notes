@@ -16,7 +16,7 @@ A commit object contains :
 
 ## What happens when we stage a file?
 Let's see what happens at the staging time:
-  - commputes the checksum for each file
+  - computes the checksum for each file
   - stores a version of file in a git repo(blob)
   - adds checksum into staging area
 ----------------------------------------------------------------------------------------
@@ -37,7 +37,7 @@ Following happens upon committing a file:
 
 ## Branches 
 
-Git branches are effectively a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug(no matter hpw big or small) you spawn a new branch to encapsulate your changes. Branches are cheap and easy to merge. Switching back and forth the branches is also very easy.
+Git branches are effectively a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug(no matter how big or small) you spawn a new branch to encapsulate your changes. Branches are cheap and easy to merge. Switching back and forth the branches is also very easy.
 #### Some commands related to branches
 - `git branch` : list all branches in your repository
 - `git branch <branch>` : create a new branch called ＜branch＞. This does not check out the new branch.
