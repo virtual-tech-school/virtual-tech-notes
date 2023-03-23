@@ -36,7 +36,7 @@ Contribute notes based on [this](https://www.youtube.com/watch?v=fkKfKsASjV4&lis
 | Adds a new remote called upstream    | `git remote add upstream url `  |
 | Push the local changes to remote     | `git push `                     |
 
-## [Architechure of Git]
+## [Architecture of Git]
 
 ### The Three States
 

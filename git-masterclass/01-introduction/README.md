@@ -13,7 +13,7 @@ Contribute notes based on [this](https://www.youtube.com/watch?v=LQ2LTPHeTts&lis
   - [Distributed Version Control System](#3-distributed-version-control-system)
 - [04 How was Git created ?](#04-how-was-git-created-)
 - [05 How Git is different from other Version Control System ?](#05-how-git-is-different-from-other-version-control-system-)
-  - [Snapshorts, Not Differences](#1-snapshorts-not-differences)
+  - [Snapshots, Not Differences](#1-snapshorts-not-differences)
   - [Nearly Every Operation Is Local](#2-nearly-every-operation-is-local)
   - [Git Has Integrity](#3-git-has-integrity)
   - [Git Generally Only Adds Data](#4-git-generally-only-adds-data)
@@ -24,7 +24,7 @@ Git is a **Version Control System (VCS)** for your files
 
 - It reverts a selected file/entire project back to previous state
 - Compares changes
-- Helps in indentification of who modified the files that is causing some issue
+- Helps in identification of who modified the files that is causing some issue
 - Helps in identification of who introduced an issue and when
 
 # 02 Version Control System (VCS)
