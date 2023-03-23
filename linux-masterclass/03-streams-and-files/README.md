@@ -68,7 +68,7 @@ eg : <code>uniq -c testing.txt</code> (gives number of occurances).</li>
 >Drawback: only works when the duplicate words are next to each other.
 
 <li><b> wc</b> (word count)<br>
-eg : <code>wc testing.txt</code> (gives no of lines, words, letters in the file)</li>
+eg : <code>wc testing.txt</code> (gives no of lines, words in the file & size of the file in Bytes)</li>
  
 <li> <b>grep</b> used in searching and matching text files contained in the regular expressions. <br>
 eg : <code>env | grep PWD</code>
