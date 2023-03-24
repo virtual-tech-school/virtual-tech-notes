@@ -1,1 +1,2 @@
-No notes available. Contribute notes based on [this](https://www.youtube.com/watch?v=cnbvsWKf-qM&list=PL2kSRH_DmWVZp_cu6MMPWkgYh7GZVFS6i&index=5) video now!
+# Process
+Processes are just programs that are running on linux machine. This processes are generally managed by kernel and each process have a **PID**(process id)
