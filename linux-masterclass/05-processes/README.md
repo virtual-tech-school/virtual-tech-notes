@@ -1,5 +1,6 @@
 # Processes
-Processes are just programs that are running on linux machine. This processes are generally managed by kernel and each process have a **PID**(process id).
+Processes are just programs that are running on linux machine. This processes are generally managed by kernel and each process have a **PID**(process id).Process
+are closes when terminal associated with it is closed.
 
 ## General commands of processes
 
@@ -7,7 +8,7 @@ Processes are just programs that are running on linux machine. This processes ar
 | ------------- | ------------- |---------------------- |
 | `ps`  |  list current process of shell | ![2](https://user-images.githubusercontent.com/120579608/227507812-9acd8fbe-23ad-4187-ab05-99064b00b8b8.PNG) |
 | `ps aux`  |  list all process | ![Capture 2](https://user-images.githubusercontent.com/120579608/227507591-6a53a541-11e3-499b-aceb-f19372d684cd.PNG) |
-| `top`  | list all process  | ![Capture 3](https://user-images.githubusercontent.com/120579608/227507703-4f7e9dd7-4f5b-468a-89dc-35a769707a94.PNG) |
+| `top`  | list all real time process  | ![Capture 3](https://user-images.githubusercontent.com/120579608/227507703-4f7e9dd7-4f5b-468a-89dc-35a769707a94.PNG) |
 
 ## How process starts
 
@@ -21,14 +22,14 @@ graph TD;
     gnemeProcess-->|fork system call|BashProcess;
     BashProcess-->|fork system call| p5;
 ```
-
+### Mother Process
 ## How process terminates
 
 
 
 
 
-### Mother Process
+
 
 
 
