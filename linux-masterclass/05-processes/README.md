@@ -1,6 +1,6 @@
 # Processes
 Processes are just programs that are running on linux machine. This processes are generally managed by kernel and each process have a **PID**(process id).Process
-are closes when terminal associated with it is closed.
+are terminated when terminal associated with it is closed.
 
 ## General commands of processes
 
