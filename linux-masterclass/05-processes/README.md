@@ -39,7 +39,7 @@ graph TD;
 ```
 
 ## How process terminates
-
+ Termination of process is by **exit system call**. Kernel known whether the process is terminated or not by **termination status**. For the successfull process termination status is **0**.
 
 
 
