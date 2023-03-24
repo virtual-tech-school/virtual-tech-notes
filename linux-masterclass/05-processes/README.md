@@ -23,19 +23,13 @@ graph TD;
     BashProcess-->|fork system call| p5;
 ```
 ### Mother Process
-## How process terminates
 
+ Mother Process is the **first process** initiated by the kernel when system **boast up** which has PID of **1**.Mother process is also known as **init** and this process runs on **root** previledge.
+ 
 
-
-
-
-
-
-
-
+ 
 
 ### Demon Process
-
 ```mermaid
 graph TD;
     init-->DemonProcess1;
@@ -43,6 +37,10 @@ graph TD;
     init-->DeomonProcess3;
     init-->DeomonProcess4;
 ```
+
+## How process terminates
+
+
 
 
 ### Orphan Process
