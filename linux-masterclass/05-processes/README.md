@@ -11,8 +11,7 @@ are closes when terminal associated with it is closed.
 | `top`  | list all real time process  | ![Capture 3](https://user-images.githubusercontent.com/120579608/227507703-4f7e9dd7-4f5b-468a-89dc-35a769707a94.PNG) |
 
 ## How process starts
-
-
+    New process in the linux system starts by mechanism know as **Fork System Call**. In this the new process(child) **clone** the **present process**(parent process) by requesting the kernel. Child process can use **execve system call** to run new program. Kernel decides the resources to the process.
 ---
 General example
 ---
@@ -26,9 +25,6 @@ graph TD;
 
  Mother Process is the **first process** initiated by the kernel when system **boast up** which has PID of **1**.Mother process is also known as **init** and this process runs on **root** previledge.
  
-
- 
-
 ### Demon Process
 ```mermaid
 graph TD;
@@ -39,11 +35,13 @@ graph TD;
 ```
 
 ## How process terminates
- Termination of process is by **exit system call**. Kernel known whether the process is terminated or not by **termination status**. For the successfull process termination status is **0**.
-
-
-
+ Termination of process is by **exit system call**. Kernel known whether the process is terminated or not by **termination status**. For the successful process termination status is **0**. Termination process includes the cleaning of resources utilized by the process.
+ 
+### Wait system call
+ Parent process should acknowledge the kernel by **wait system call** for completion of termination process.
+ 
 ### Orphan Process
+  If parent dies,then the child process of it is adoped to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowlegde the termination process by wait system call.In this case, the child process is known as orphan process.
 
 ```mermaid
 graph TD;
