@@ -10,6 +10,8 @@ Processes are just programs that are running on linux machine. This processes ar
 | `top`  | list all process  | ![Capture 3](https://user-images.githubusercontent.com/120579608/227507703-4f7e9dd7-4f5b-468a-89dc-35a769707a94.PNG) |
 
 ## How process starts
+
+
 ---
 General example
 ---
@@ -17,7 +19,7 @@ General example
 graph TD;
     init-->|fork system call|gnemeProcess
     gnemeProcess-->|fork system call|BashProcess;
-    BashProcess-->|fork system call| ps;
+    BashProcess-->|fork system call| p5;
 ```
 
 ## How process terminates
