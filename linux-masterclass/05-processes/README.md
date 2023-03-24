@@ -12,9 +12,7 @@ are terminated when terminal associated with it is closed.
 
 ## How process starts
     New process in the linux system starts by mechanism know as **Fork System Call**. In this the new process(child) **clone** the **present process**(parent process) by requesting the kernel. Child process can use **execve system call** to run new program. Kernel decides the resources to the process.
----
-General example
----
+
 ```mermaid
 graph TD;
     init-->|fork system call|gnemeProcess
@@ -26,6 +24,8 @@ graph TD;
  Mother Process is the **first process** initiated by the kernel when system **boast up** which has PID of **1**.Mother process is also known as **init** and this process runs on **root** previledge.
  
 ### Demon Process
+    Demon process are the **child process** of mother. This are responsible for keeping the system running.
+    
 ```mermaid
 graph TD;
     init-->DemonProcess1;
