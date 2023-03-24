@@ -12,7 +12,8 @@ are terminated when terminal associated with it is closed.
 
 ## How process starts
 
-    New process in the linux system starts by mechanism know as **Fork System Call**. In this the new process(child) **clone** the **present process**(parent process) by requesting the kernel. Child process can use **execve system call** to run new program. Kernel decides the resources to the process.
+New process in the linux system starts by mechanism know as **Fork System Call**. In this the new process(child) **clone** the **present process**(parent 
+process) by requesting the kernel. Child process can use **execve system call** to run new program. Kernel decides the resources to the process.
 
 ```mermaid
 graph TD;
