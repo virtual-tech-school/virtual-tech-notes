@@ -11,7 +11,7 @@ Processes are just programs that are running on linux machine. This processes ar
 
 ## How process starts
 ---
-title: General example
+General example
 ---
 ```mermaid
 graph TD;
@@ -67,14 +67,14 @@ graph TD;
 
 ### Nice & Renice
 ---
-title: Process cycle in CPU
+Process cycle in CPU
 ---
 ```mermaid
 flowchart LR
    P1 -->|t1| P2
    P2 -->|t2| P3
    P3 -->|t3| P4
-   p4 -->|t4| P1
+   P4 -->|t4| P1
 ```
 
 
