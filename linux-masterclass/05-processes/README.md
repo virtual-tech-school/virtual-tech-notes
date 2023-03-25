@@ -48,7 +48,7 @@ graph TD;
 
 ```mermaid
 graph TD;
-    ParentX-->Child;
+    Parent-->Child;
     Child-->init;
     init-->|wait system call|Child;
 ```
