@@ -38,10 +38,10 @@ graph TD;
 ```
 
 ## How process terminates
- Termination of process is done by **exit system call**. Kernel known whether the process is terminated or not by **termination status**. For the successful process termination status is **0**. Termination process includes the cleaning of resources utilized by the process.
+ Termination of process is done by **exit system call** and **wait system call** . Kernel known whether the process is terminated or not by **termination status**. For the successful process termination status is **0**. Termination process includes the cleaning of resources utilized by the process.
  
 ### Wait system call
- Parent process should acknowledge the kernel by **wait system call** for completion of termination process of child.
+ Parent process should acknowledge the kernel by **wait system call** for completion of termination process of child.The wait() system call is used by a parent process to wait for its child process to terminate and obtain its termination status.
  
 ### Orphan Process
   If parent process dies,then the child process of it is adoped to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowlegde the termination process by wait system call.In this case, the child process is known as orphan process.
@@ -54,7 +54,7 @@ graph TD;
 ```
 
 ### Zombie Process
- When the child process termination is not acknowledge by the parent ,then the child process is treated as **zombie process** by the kernel.Further,if parent process acknowlegde the zombie process termination then this is known as **reaping**. If reaping didn't occurs 
+ When the child process termination is not acknowledge by the parent ,then the child process is treated as **zombie process** by the kernel.Further,if parent process acknowlegde the zombie process termination then this is known as **reaping**. If reaping didn't occurs then the **wait system call** is done by mother to terminate **zombie process**.
 
 # Signals
 |  Signal |  Description |
