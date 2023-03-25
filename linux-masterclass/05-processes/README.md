@@ -6,7 +6,7 @@ are terminated when terminal associated with it is closed.
 
 | command | description | |
 | ------------- | ------------- |---------------------- |
-| `ps`  |  list current process of shell | ![2](https://user-images.githubusercontent.com/120579608/227507812-9acd8fbe-23ad-4187-ab05-99064b00b8b8.PNG) |
+| `ps`  |  list current processes of shell | ![2](https://user-images.githubusercontent.com/120579608/227507812-9acd8fbe-23ad-4187-ab05-99064b00b8b8.PNG) |
 | `ps aux`  |  list all processes | ![Capture 2](https://user-images.githubusercontent.com/120579608/227507591-6a53a541-11e3-499b-aceb-f19372d684cd.PNG) |
 | `top`  | list all real time processes  | ![Capture 3](https://user-images.githubusercontent.com/120579608/227507703-4f7e9dd7-4f5b-468a-89dc-35a769707a94.PNG) |
 
