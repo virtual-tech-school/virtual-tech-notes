@@ -1,5 +1,5 @@
 # Processes
-Processes are just programs that are running on linux machine. This processes are generally managed by kernel and each process have a **PID**(process id).Process
+Processes are just programs that are running on linux machine. This processes are generally managed by kernel and each process have a **PID**(process id). Process
 are terminated when terminal associated with it is closed.
 
 ## General commands of processes
@@ -41,7 +41,7 @@ graph TD;
  Termination of process is done by **exit system call** and **wait system call** . Kernel known whether the process is terminated or not by **termination status**. For the successful process termination status is **0**. Termination process includes the cleaning of resources utilized by the process.
  
 ### Wait system call
- Parent process should acknowledge the kernel by **wait system call** for completion of termination process of child.The wait() system call is used by a parent process to wait for its child process to terminate and obtain its termination status.
+ Parent process should acknowledge the kernel by **wait system call** for completion of termination process of child. The wait() system call is used by a parent process to wait for its child process to terminate and obtain its termination status.
  
 ### Orphan Process
   If parent process dies,then the child process of it is adoped to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowlegde the termination process by wait system call. In this case, the child process is known as **orphan process**.
@@ -73,7 +73,8 @@ graph TD;
 
 ### Nice & Renice
 
-    Process aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time. But, we can prioritize the process by **nice & renice** command. And every process has nice which indicates priority value. If the nice value is less,the system will prioritize more or vice versa.
+Process aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time. But, we can prioritize the process by **nice & renice** command. And every process has nice which indicates priority value. If the nice value is less,the system will prioritize more or vice versa.
+
 ---
 Process cycle in CPU
 ---
