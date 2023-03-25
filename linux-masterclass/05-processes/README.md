@@ -73,7 +73,7 @@ graph TD;
 
 ### Nice & Renice
 
-    Process aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time. But, we can prioritize the process by **nice & renice** command. And every process has nil which indicates priority value. If the nil value is less,the system will prioritize more or vice versa.
+    Process aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time. But, we can prioritize the process by **nice & renice** command. And every process has nice which indicates priority value. If the nice value is less,the system will prioritize more or vice versa.
 ---
 Process cycle in CPU
 ---
