@@ -57,6 +57,10 @@ graph TD;
  When the child process termination is not acknowledge by the parent ,then the child process is treated as **zombie process** by the kernel.Further,if parent process acknowlegde the zombie process termination then this is known as **reaping**. If reaping didn't occurs then the **wait system call** is done by mother to terminate **zombie process**.
 
 # Signals
+ It is a notification to the process that something has happened.
+
+### Common signals
+
 |  Signal |  Description |
 | ------------- | ------------- |
 |  `SIGNHUP/HUP/1` |  HangUp |
@@ -68,6 +72,7 @@ graph TD;
 
 
 ### Nice & Renice
+Process aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time.But, we can prioritize the process by **nice & renice** command.
 ---
 Process cycle in CPU
 ---
@@ -78,6 +83,10 @@ flowchart LR
    P3 -->|t3| P4
    P4 -->|t4| P1
 ```
+### Signal Mask
+Signal mask is used to block signals but there are some signals like *kill* cann't be blocked.
+
+# States of process
 
 
 
