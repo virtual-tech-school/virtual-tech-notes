@@ -85,7 +85,7 @@ flowchart LR
    P3 -->|t3| P4
    P4 -->|t4| P1
 ```
-| commad |  Description |
+| Commad |  Description |
 | ------------- | ------------- |
 |  `nice -n priorityValue newProcess` | for new process |
 |  `renice priorityValue -p processId` | for already exit process |
@@ -96,7 +96,7 @@ Signal mask is used to block signals but there are some signals like *kill* cann
 
 # States of process
 
-| state of process |  Description |
+| State of process |  Description |
 | ------------- | ------------- |
 |  `R` | The process is running |
 |  `S` | Interruptable sleep |
