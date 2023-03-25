@@ -54,7 +54,7 @@ graph TD;
 ```
 
 ### Zombie Process
- When the child process termination is not acknowledge by the parent ,then the child process is called as **zombie process**.
+ When the child process termination is not acknowledge by the parent ,then the child process is treated as **zombie process** by the kernel.Further,if parent process acknowlegde the zombie process termination then this is known as **reaping**. If reaping didn't occurs 
 
 # Signals
 |  Signal |  Description |
