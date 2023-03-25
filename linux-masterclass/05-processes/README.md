@@ -1,3 +1,4 @@
+Those who would like to make improvements in the future - You can help us improve notes based on [this](https://www.youtube.com/watch?v=cnbvsWKf-qM&list=PL2kSRH_DmWVZp_cu6MMPWkgYh7GZVFS6i&index=5) video. Contributors are welcome :hugs:.
 # Processes
 Processes are just programs that are running on linux machine. This processes are generally managed by kernel and each process have a **PID**(process id). Process
 are terminated when terminal associated with it is closed.
