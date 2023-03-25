@@ -23,7 +23,7 @@ graph TD;
 ```
 ### Mother Process
 
- Mother Process is the **first process** initiated by the kernel when system **boast up** which has PID of **1**.Mother process is also known as **init** and this process runs on **root** previledge.
+ Mother Process is the **first process** initiated by the kernel when system **boot up** which has PID of **1**. Mother process is also known as **init** and this process runs on **root** previledge.
  
 ### Demon Process
 
@@ -44,7 +44,7 @@ graph TD;
  Parent process should acknowledge the kernel by **wait system call** for completion of termination process of child.The wait() system call is used by a parent process to wait for its child process to terminate and obtain its termination status.
  
 ### Orphan Process
-  If parent process dies,then the child process of it is adoped to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowlegde the termination process by wait system call.In this case, the child process is known as orphan process.
+  If parent process dies,then the child process of it is adoped to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowlegde the termination process by wait system call. In this case, the child process is known as **orphan process**.
 
 ```mermaid
 graph TD;
@@ -73,7 +73,7 @@ graph TD;
 
 ### Nice & Renice
 
-    Process aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time. But, we can prioritize the process by **nice & renice** command.
+    Process aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time. But, we can prioritize the process by **nice & renice** command. And every process has nil which indicates priority value. If the nil value is less,the system will prioritize more or vice versa.
 ---
 Process cycle in CPU
 ---
