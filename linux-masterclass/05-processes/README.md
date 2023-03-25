@@ -32,9 +32,9 @@ Demon process are the **child process** of mother. This are responsible for keep
 ```mermaid
 graph TD;
     init-->DemonProcess1;
-    init-->DeomonProcess2;
-    init-->DeomonProcess3;
-    init-->DeomonProcess4;
+    init-->DemonProcess2;
+    init-->DemonProcess3;
+    init-->DemonProcess4;
 ```
 
 ## How process terminates
