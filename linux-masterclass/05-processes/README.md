@@ -26,7 +26,8 @@ graph TD;
  Mother Process is the **first process** initiated by the kernel when system **boast up** which has PID of **1**.Mother process is also known as **init** and this process runs on **root** previledge.
  
 ### Demon Process
-    Demon process are the **child process** of mother. This are responsible for keeping the system running.
+
+Demon process are the **child process** of mother. This are responsible for keeping the system running.
     
 ```mermaid
 graph TD;
@@ -37,23 +38,23 @@ graph TD;
 ```
 
 ## How process terminates
- Termination of process is by **exit system call**. Kernel known whether the process is terminated or not by **termination status**. For the successful process termination status is **0**. Termination process includes the cleaning of resources utilized by the process.
+ Termination of process is done by **exit system call**. Kernel known whether the process is terminated or not by **termination status**. For the successful process termination status is **0**. Termination process includes the cleaning of resources utilized by the process.
  
 ### Wait system call
- Parent process should acknowledge the kernel by **wait system call** for completion of termination process.
+ Parent process should acknowledge the kernel by **wait system call** for completion of termination process of child.
  
 ### Orphan Process
-  If parent dies,then the child process of it is adoped to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowlegde the termination process by wait system call.In this case, the child process is known as orphan process.
+  If parent process dies,then the child process of it is adoped to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowlegde the termination process by wait system call.In this case, the child process is known as orphan process.
 
 ```mermaid
 graph TD;
     ParentX-->Child;
     Child-->init;
-    init-->|wait system call|D;
+    init-->|wait system call|Child;
 ```
 
 ### Zombie Process
-
+ When the child process termination is not acknowledge by the parent ,then the child process is called as **zombie process**.
 
 # Signals
 |  Signal |  Description |
