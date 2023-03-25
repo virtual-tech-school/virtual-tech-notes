@@ -13,7 +13,7 @@ are terminated when terminal associated with it is closed.
 ## How process starts
 
 New process in the linux system starts by mechanism know as **Fork System Call**. In this the new process(child) **clone** the **present process**(parent 
-process) by requesting the kernel. Child process can use **execve system call** to run new program. Kernel decides the resources to the process.
+process) by requesting the kernel. Kernel decides the resources to the process.
 
 ```mermaid
 graph TD;
@@ -41,7 +41,7 @@ graph TD;
  Termination of process is done by **exit system call** and **wait system call** . Kernel known whether the process is terminated or not by **termination status**. For the successful process termination status is **0**. Termination process includes the cleaning of resources utilized by the process.
  
 ### Wait system call
- Parent process should acknowledge the kernel by **wait system call** for completion of termination process of child. The wait() system call is used by a parent process to wait for its child process to terminate and obtain its termination status.
+ Parent process should acknowledge the kernel by **wait system call** for completion of termination process of child. The wait system call is used by a parent process to wait for its child process to terminate and obtain its termination status.
  
 ### Orphan Process
   If parent process dies,then the child process of it is adoped to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowlegde the termination process by wait system call. In this case, the child process is known as **orphan process**.
@@ -63,9 +63,9 @@ graph TD;
 
 |  Signal |  Description |
 | ------------- | ------------- |
-|  `SIGNHUP/HUP/1` |  HangUp |
+|  `SIGHUP/HUP/1` |  HangUp |
 | `SIGINT/INT/2`  | Interput  |
-| `SIGNKILL/KILL/9`  |  Kill | 
+| `SIGKILL/KILL/9`  |  Kill | 
 |  `SIGSEGV/SEGV/11` | Segmentation fault  |
 | `SIGTER/TERM/15`  | Terminate  |
 | `SIGSTOP/STOP/19`  |  Stop | 
