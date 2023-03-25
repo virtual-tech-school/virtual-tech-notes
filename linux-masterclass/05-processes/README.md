@@ -72,7 +72,8 @@ graph TD;
 
 
 ### Nice & Renice
-Process aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time.But, we can prioritize the process by **nice & renice** command.
+
+    Process aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time. But, we can prioritize the process by **nice & renice** command.
 ---
 Process cycle in CPU
 ---
@@ -83,10 +84,22 @@ flowchart LR
    P3 -->|t3| P4
    P4 -->|t4| P1
 ```
+| commad |  Description |
+| ------------- | ------------- |
+|  `nice -n priorityValue newProcess` | for new process |
+|  `renice priorityValue -p processId` | for already exit process |
+
 ### Signal Mask
+
 Signal mask is used to block signals but there are some signals like *kill* cann't be blocked.
 
 # States of process
 
-
+| state of process |  Description |
+| ------------- | ------------- |
+|  `R` | The process is running |
+|  `S` | Interruptable sleep |
+|  `D` | Uninterruptable sleep |
+|  `Z` | Zombie |
+|  `T` | Stopped |
 
