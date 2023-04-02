@@ -31,4 +31,18 @@ Whatever happening in our system is getting saved as logs in `/var` directory .
  ```
  ![image](https://user-images.githubusercontent.com/120579608/229372683-0d7f2c3a-2cc3-4657-b11a-d2ba5380109b.png)
 
-  logs are created via service `syslog` and sens all info to system logger.
+  logs are created via service `syslog` which is implemented by syslogd daemon and sends all info to system logger.
+
+## Logrotate
+Designed to ease administration of system that generates large no.of log files by allowing removal ,rotation ,compression and maling of log files.
+
+```
+ls /etc/logrotate.log
+```
+This directory contains the configuration for log rotation of files.
+![image](https://user-images.githubusercontent.com/120579608/229374379-ee6beaf2-7c23-4382-a9ef-5c30fe69535d.png)
+
+```
+cat /etc/logrotate.log/apt
+```
+![image](https://user-images.githubusercontent.com/120579608/229374626-9ae0285f-05a2-4788-ae40-6e2ee05ad8f2.png)
