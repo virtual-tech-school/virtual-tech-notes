@@ -31,7 +31,7 @@ tells us about the files that are currently in use and associate process with th
 
  ## Load Average
  Load average gives details about how much CPU loads in certain time.
- ![image](https://user-images.githubusercontent.com/120579608/230594683-8dd7866c-735f-4b7d-8b63-8204e99f9b57.png)
+![image](https://user-images.githubusercontent.com/120579608/230596431-bfc86736-d074-4bcf-95ea-e5aa96220a6e.png)
 
  ### CPU load
  Average number of processes waiting to be executed by CPU.
