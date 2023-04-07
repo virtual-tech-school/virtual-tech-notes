@@ -8,6 +8,10 @@ If we run the above command ,we can observe the resource utilization by process 
 ![image](https://user-images.githubusercontent.com/120579608/229365335-210e7c1f-49b3-4985-8c2c-92b4aaf24893.png)
 
 When we run this command , we can observe that how many tasks are running ,sleeping ,stopped and zombie process. And how much CPU memory used by system (sy) ,nice (ni), otherthan nice (us),hardware (hi), software (si) , virtual machine (st) processes , waiting for system calls (ws).
+```
+top -p PID 
+```
+This commands list resourse utilization of specific process . Here PID stands for process id.
 
 ## List of files 
 ```
@@ -19,10 +23,16 @@ tells us about the files that are currently in use and associate process with th
 
 ## Threads
 
- It is an execution unit that is a part of process. A process can have multiple threads.
- 
+ It is an execution unit that is a part of process. A process can have multiple threads all executing at same time.
+ ```
+ ps -m 
+ ```
+ The above command to check the threads of process.
+
  ## Load Average
- 
+ Load average gives details about how much CPU loads in certain time.
+ ### CPU load
+ Average number of processes waiting to be executed by CPU.
  ## Logging
  
 Whatever happening in our system is getting saved as logs in `/var` directory .
@@ -48,4 +58,4 @@ cat /etc/logrotate.log/apt
 
 ![image](https://user-images.githubusercontent.com/120579608/229374626-9ae0285f-05a2-4788-ae40-6e2ee05ad8f2.png)
 
- In the above example when we observe the apt log file ,we can observe configuration 
+ In the above example when we observe the apt log file ,we can observe configuration settings. 
