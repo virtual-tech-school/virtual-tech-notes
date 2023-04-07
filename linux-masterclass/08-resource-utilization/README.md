@@ -30,7 +30,7 @@ tells us about the files that are currently in use and associate process with th
  The above command to check the threads of process.
 
  ## Load Average
- Load average gives details about how much CPU loads in certain time.
+ Load Average in Linux takes into account the waiting threads and tasks along with processes being executed. Also, it is an average value instead of being an instantaneous value.
 ![image](https://user-images.githubusercontent.com/120579608/230596431-bfc86736-d074-4bcf-95ea-e5aa96220a6e.png)
 
  ### CPU load
