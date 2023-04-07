@@ -40,9 +40,12 @@ Designed to ease administration of system that generates large no.of log files b
 ls /etc/logrotate.log
 ```
 This directory contains the configuration for log rotation of files.
-![image](https://user-images.githubusercontent.com/120579608/229374379-ee6beaf2-7c23-4382-a9ef-5c30fe69535d.png)
 
 ```
 cat /etc/logrotate.log/apt
 ```
+![image](https://user-images.githubusercontent.com/120579608/229374379-ee6beaf2-7c23-4382-a9ef-5c30fe69535d.png)
+
 ![image](https://user-images.githubusercontent.com/120579608/229374626-9ae0285f-05a2-4788-ae40-6e2ee05ad8f2.png)
+
+ In the above example when we observe the apt log file ,we can observe configuration 
