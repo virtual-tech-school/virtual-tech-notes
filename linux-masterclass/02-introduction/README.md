@@ -9,7 +9,7 @@ ___
 
 ## **What is Bootloader?**
 
-It is a program that responsible for intializing the *Operating System.*
+It is a program that is responsible for initializing the *Operating System.*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
   In **1991** <u>*Linus Torvalds* </u>started working on the "Linux Kernel". This kernel was used in every linux distribution.
 
->Linus Torvalds is a father of *Linux*  
+>Linus Torvalds is the father of *Linux*  
 
 
 ## **Linux Distributions** 
