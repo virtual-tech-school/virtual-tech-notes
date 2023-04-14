@@ -30,6 +30,7 @@ These notes are based on our videos [here](https://youtube.com/c/ApoorvGoyalMain
     <img width="30px" src="https://www.vectorlogo.zone/logos/github/github-icon.svg" />
 </a>
 
+
 ## Join Virtual Tech School
 <a href="https://discord.gg/EYB8tQxjxH">
     <img width="30px" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" />
@@ -40,3 +41,10 @@ These notes are based on our videos [here](https://youtube.com/c/ApoorvGoyalMain
 <a href="https://virtualtechschool.hashnode.dev/">
     <img width="30px" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress" />
 </a>
+
+## Our Contributors
+
+<a href="https://github.com/virtual-tech-school/virtual-tech-notes/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=virtual-tech-school/virtual-tech-notes" />
+</a>
+
