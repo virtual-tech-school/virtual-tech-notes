@@ -15,3 +15,10 @@ No notes available. Contribute notes based on [this](https://www.youtube.com/wat
 ```
 ls -l /dev
 ```
+## Filesystem Hierarchy
+"*" / -> root directory
+"*" /bin -> contains essential & ready to run binaries
+"*" /boot -> contains bootloader files
+"*" /dev -> contains evice files
+"*" /etc -> contains configuration files
+"*" /hone -> home directory
