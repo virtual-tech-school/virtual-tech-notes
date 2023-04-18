@@ -31,3 +31,12 @@ ls -l /dev
 * /sbin -> system binaries which are run by the root
 ## Journaling
 Used to repair any inconsistencies that occur as the result of an improper shutdown of the computer
+Suppose you were copying a file, if the system then also we can able to identify the currupt file by using *journaling*.
+
+## Desktop file types
+|Destop file types| Description|
+|---|---|
+| ext 4 | latest & standard choice of file system which support disk space of 1exabyte of file sixe 16 TB|
+| Btrfs| Butter/Better file system and it is not stable than other|
+| XFS |  high performance journaling file system generally good for servers|
+| NTFS & FAT| windows file system|
