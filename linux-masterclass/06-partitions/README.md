@@ -44,3 +44,4 @@ Suppose you were copying a file, if the system then also we can able to identify
 
 ## Nodes and innodes
 Nodes tables are just like dtabase to manage files .In this table each file or directory has innode and contains the information about the file.
+
