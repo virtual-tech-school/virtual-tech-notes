@@ -85,8 +85,7 @@ Bootstrap comes with three different containers:
 
 The table below illustrates how each container’s max-width compares to the original .container and .container-fluid across each breakpoint.
 
-| ---- | Extra small | Small | Medium | Large | X-Large | XX-Large |
-| ---- | <576px | ≥576px | ≥768px | ≥992px | ≥1200px | ≥1400px |
+| ---- | Extra small (<576px) | Small (≥576px) | Medium (≥768px) | Large (≥992px) | X-Large (≥1200px) | XX-Large (≥1400px) |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | .container	| 100%	| 540px	| 720px	| 960px	| 1140px	| 1320px |
 | .container-sm	| 100%	| 540px	| 720px	| 960px | 1140px	| 1320px |
@@ -143,10 +142,10 @@ Grid sysytem 2 main pre-define **Classes** known as "row" & "col". "col" class i
 </div>
 
 ```
-> output as 
-> 
-> | Column | Column | Column |
-> 
+Output as 
+ 
+| Column | Column | Column |
+ 
 
 The above example creates three equal-width columns across all devices and viewports using our predefined grid classes. Those columns are centered in the page with the parent .container.
 
@@ -181,11 +180,11 @@ Please refer to below examples
 </div>
 
 ```
-> output as 
-> 
-> | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-> | 13 | 14 |
-> 
+Output as 
+ 
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+| 13 | 14 |
+ 
 
 we can see there are maximum of only 12 column possible in a row, for column 13 and 14 it takes next row. 
 Note : "box" is a class present in Bootstrap library for creating box around the content of that tag.
@@ -198,26 +197,26 @@ let there be a responsive  website with 3 case of display devices
 1. Phone
 
 for Desktop as 
-> 
-> | JOIN US |
-> | YouTube | Hashnode | Discord | Twitter |
->
+ 
+| JOIN US |
+| YouTube | Hashnode | Discord | Twitter |
+
 
 for Ipad as
-> 
-> | JOIN US |
-> | YouTube | Hashnode |
-> | Discord | Twiter |
-> 
+ 
+| JOIN US |
+| YouTube | Hashnode |
+| Discord | Twiter |
+ 
 
 for Phone
-> 
-> | JOIN US |
-> | YouTube |
-> | Hashnode |
-> | Discord |
-> | Twiter |
-> 
+ 
+| JOIN US |
+| YouTube |
+| Hashnode |
+| Discord |
+| Twiter |
+ 
 
 The code will be as shown below
 
@@ -280,9 +279,9 @@ The classes are named using the format **{property}{sides}-{size}** for **xs** a
 > - e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
 > - x - for classes that set both *-left and *-right
 > - y - for classes that set both *-top and *-bottom
-blank - for classes that set a margin or padding on all 4 sides of the element
+> blank - for classes that set a margin or padding on all 4 sides of the element
 > 
-Where size is one of:
+> Where size is one of:
 > 
 > - 0 - for classes that eliminate the margin or padding by setting it to 0
 > - 1 - (by default) for classes that set the margin or padding to $spacer * .25
@@ -297,9 +296,9 @@ Where size is one of:
 
 When you go through all the example and explanations and syntax, we are only studying syntax to write **Class names** of all the different property that we need like Breakpoint, containers, grid system, etc. 
 
-we are not coding any CSS styling in the code or any other .css file on our computer but the class mention in the code are the pre-written class in the bootstrap library with there CSS styling code. 
+We are not coding any CSS styling in the code or any other .css file on our computer but the class mention in the code are the pre-written class in the bootstrap library with there CSS styling code. 
 
-hence, we are only learning which Bootstrap library Class name to mention to obtained the required styling instead coding it.
+Hence, we are only learning which Bootstrap library Class name to mention to obtained the required styling instead coding it.
 
 Also, Watch the [Bootstrap video](https://www.youtube.com/watch?v=tiUy-0GpUlY&t=153s) for better understanding this notes.
 
