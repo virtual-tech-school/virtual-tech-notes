@@ -46,7 +46,15 @@ To check filesystem of linux :-
 ```
 df -T
 ```
+We can create multiple partitions in any disk and each parttion act as an individual **block device**.And each block system can act as different filesystem.
 
 ## Nodes and innodes
 Nodes tables are just like dtabase to manage files .In this table each file or directory has innode and contains the information about the file.
+
+### Partition Table
+To check how a disk is partitioned.
+THere are two main parttion schemes
+* MBR -> Master Boot Record
+* GPT -> GUID Partion Table
+
 
