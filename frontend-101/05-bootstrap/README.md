@@ -62,14 +62,14 @@ In Present, Websites/Webapps are preferred to be Responsive in single code for v
 
 Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively.
 
-| Breakpoint	    | Class infix	| Dimensions
-| ----------------- | ------------- |
-| Extra small	    | None	        | <576px
-| Small	            | sm	        | ≥576px
-| Medium	        | md	        | ≥768px
-| Large	            | lg	        | ≥992px
-| Extra large	    | xl	        | ≥1200px
-| Extra extra large	| xxl	        | ≥1400px
+| Breakpoint	    | Class infix	| Dimensions |
+| ----------------- | ------------- | ---------- |
+| Extra small	    | None	        | <576px |
+| Small	            | sm	        | ≥576px |
+| Medium	        | md	        | ≥768px |
+| Large	            | lg	        | ≥992px |
+| Extra large	    | xl	        | ≥1200px |
+| Extra extra large	| xxl	        | ≥1400px |
 
 Each breakpoint was chosen to comfortably hold containers whose widths are multiples of 12.
 
@@ -107,9 +107,13 @@ for example :
 
 ``` 
 
-above code snippet shows the use of different Class name for different container size for variuos device screensize.
-> **Note** : we can use all the Class name under single code as shown below. 
+Above code snippet shows the use of different Class name for different container size for variuos device screensize.
+
+> **Note :**
+> 
+> We can use all the Class name under single code as shown below. 
 > Also all this class name are present in the Bootstrap Library with Pre-Written CSS code as per its function.
+> 
 
 ```HTML
 <div class="container container-sm container-md container-lg container-xl container-xxl">text / code / CSS styling / Blocks / ETC here</div>
@@ -142,10 +146,11 @@ Grid sysytem 2 main pre-define **Classes** known as "row" & "col". "col" class i
 </div>
 
 ```
-Output as 
- 
-| Column | Column | Column |
- 
+> Output as 
+>  
+> | Column | Column | Column |
+> | ----- | ----- | ----- | 
+> 
 
 The above example creates three equal-width columns across all devices and viewports using our predefined grid classes. Those columns are centered in the page with the parent .container.
 
@@ -180,11 +185,12 @@ Please refer to below examples
 </div>
 
 ```
-Output as 
- 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-| 13 | 14 |
- 
+> Output as 
+>  
+> | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+> | - | - | - | - | - | - | - | - | - | - | - | - |
+> | 13 | 14 |
+>  
 
 we can see there are maximum of only 12 column possible in a row, for column 13 and 14 it takes next row. 
 Note : "box" is a class present in Bootstrap library for creating box around the content of that tag.
@@ -196,26 +202,34 @@ let there be a responsive  website with 3 case of display devices
 1. Ipad 
 1. Phone
 
-for Desktop as 
- 
-| JOIN US |
-| YouTube | Hashnode | Discord | Twitter |
+> for Desktop as 
+>  
+> |                 JOIN US                |
+> | ---- |
+> 
+> | YouTube | Hashnode | Discord | Twitter |
+> | ---- | ---- | ---- | ---- |
+> 
 
+> for Ipad as
+>  
+> |      JOIN US      |
+> | ---- |
+> 
+> | YouTube | Hashnode |
+> | ---- | ---- |
+> | Discord | Twiter |
+> | ---- | ---- |
+> 
 
-for Ipad as
- 
-| JOIN US |
-| YouTube | Hashnode |
-| Discord | Twiter |
- 
-
-for Phone
- 
-| JOIN US |
-| YouTube |
-| Hashnode |
-| Discord |
-| Twiter |
+> for Phone
+>  
+> | JOIN US |
+> | ---- |
+> | YouTube |
+> | Hashnode |
+> | Discord |
+> | Twiter |
  
 
 The code will be as shown below
