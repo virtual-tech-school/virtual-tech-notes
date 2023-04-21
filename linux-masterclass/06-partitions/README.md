@@ -40,7 +40,12 @@ Suppose you were copying a file, if the system then also we can able to identify
 | Btrfs| Butter/Better file system and it is not stable than other|
 | XFS |  high performance journaling file system generally good for servers|
 | NTFS & FAT| windows file system|
-| HFS | windows file system |
+| HFS | MAC file system |
+
+To check filesystem of linux :-
+```
+df -T
+```
 
 ## Nodes and innodes
 Nodes tables are just like dtabase to manage files .In this table each file or directory has innode and contains the information about the file.
