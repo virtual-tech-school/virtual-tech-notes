@@ -204,7 +204,7 @@ let there be a responsive  website with 3 case of display devices
 
 > for Desktop as 
 >  
-> |                 JOIN US                |
+> | .               JOIN US              . |
 > | ---- |
 > 
 > | YouTube | Hashnode | Discord | Twitter |
@@ -213,7 +213,7 @@ let there be a responsive  website with 3 case of display devices
 
 > for Ipad as
 >  
-> |      JOIN US      |
+> | .    JOIN US    . |
 > | ---- |
 > 
 > | YouTube | Hashnode |
