@@ -75,7 +75,7 @@ THere are two main parttion schemes
  *  Data Blocks
 
 # Inode
-   Inode tables are just like database to manage files in this table  each file or directory has inode & it generally describes all the info about file. Contains everything execpt for file & it's  name , also contains pointers to datablocks of file.
+   Inode, short of index node tables are just like database to manage files in this table  each file or directory has inode & it generally describes all the info about file. Contains everything execpt for file & it's  name , also contains pointers to datablocks of file.
   When file system is created ,some space for the innodes is also allocated as well.
  ```
  df -i
@@ -88,3 +88,4 @@ ls -li
 This is the command to check inodes number.
 ### How do inodes work and locate file
 ![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/120579608/234055609-51a0d8d1-0e67-4e1c-9091-71c7c2c48f18.png)
+Innode points to the actual data block of file in the file system. Each and every innode contains 15 pointers.When a file is created on a file system, the file system allocates a new inode and stores the file's metadata in the inode data structure. The file system also allocates the necessary data blocks to store the file's contents and links them to the inode by storing their addresses in the inode's data block pointers.
