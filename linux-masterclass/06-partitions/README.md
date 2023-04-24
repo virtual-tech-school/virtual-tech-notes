@@ -54,7 +54,13 @@ Nodes tables are just like dtabase to manage files .In this table each file or d
 ### Partition Table
 To check how a disk is partitioned.
 THere are two main parttion schemes
-* MBR -> Master Boot Record
-* GPT -> GUID Partion Table
-
-
+* MBR -> Mast   
+* GRT                                                                                                                                                 t is a traditional partition table ,supports the disk upto *2TB*. WHich has linmitations of 4 parts only known as *primary partitions*. Out of these 4 we can create one extended partition & in that can create multiple logical partitions same as creating primary partitions.
+ 
+ ### GPT
+ This is new standard each partition has globally unique ID(GUID) and usually used with UEFI based looting .
+ 
+ ## Filesystem Structue
+ 
+ FS is part of an organized collection of files &  directives.
+ 
