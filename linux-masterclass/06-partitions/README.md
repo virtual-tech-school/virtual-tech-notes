@@ -87,4 +87,4 @@ ls -li
 ```
 This is the command to check inodes number.
 ### How do inodes work and locate file
-
+![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/120579608/234055609-51a0d8d1-0e67-4e1c-9091-71c7c2c48f18.png)
