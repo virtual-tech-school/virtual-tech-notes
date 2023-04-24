@@ -54,13 +54,35 @@ Nodes tables are just like dtabase to manage files .In this table each file or d
 ### Partition Table
 To check how a disk is partitioned.
 THere are two main parttion schemes
-* MBR -> Mast   
-* GRT                                                                                                                                                 t is a traditional partition table ,supports the disk upto *2TB*. WHich has linmitations of 4 parts only known as *primary partitions*. Out of these 4 we can create one extended partition & in that can create multiple logical partitions same as creating primary partitions.
+* MBR -> Mast er Boot Record  
+* GRT -> GUID partition table
+## MBR
+  t is a traditional partition table ,supports the disk upto *2TB*. WHich has linmitations of 4 parts only known as *primary partitions*. Out of these 4 we can create one extended partition & in that can create multiple logical partitions same as creating primary partitions.
  
  ### GPT
  This is new standard each partition has globally unique ID(GUID) and usually used with UEFI based looting .
  
  ## Filesystem Structue
  
- FS is part of an organized collection of files &  directives.
+ FS is part of an organized collection of files &  directives.It's like a database to manage files.
  
+ FS has $ major components
+ * Bootblock
+ *  SuperBlock
+ *  Innode table
+ *  Data Blocks
+
+# Inode
+   Inode tables are just like database to manage files in this table  each file or directory has inode & it generally describes all the info about file. Contains everything execpt for file & it's  name , also contains pointers to datablocks of file.
+  When file system is created ,some space for the innodes is also allocated as well.
+ ```
+ df -i
+ ```
+This is the command to check how many innodes are availabele.
+
+```
+ls -li
+```
+This is the command to check inodes number.
+### How do inodes work and locate file
+
