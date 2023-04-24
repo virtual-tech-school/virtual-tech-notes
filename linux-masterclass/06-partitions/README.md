@@ -57,17 +57,19 @@ THere are two main parttion schemes
 * MBR -> Mast er Boot Record  
 * GRT -> GUID partition table
 ## MBR
-  t is a traditional partition table ,supports the disk upto *2TB*. WHich has linmitations of 4 parts only known as *primary partitions*. Out of these 4 we can create one extended partition & in that can create multiple logical partitions same as creating primary partitions.
+  It is a traditional partition table ,supports the disk upto *2TB*. WHich has linmitations of 4 parts only known as *primary partitions*. Out of these 4 we can create one extended partition & in that can create multiple logical partitions same as creating primary partitions.
  
  ### GPT
+ 
  This is new standard each partition has globally unique ID(GUID) and usually used with UEFI based looting .
  
- ## Filesystem Structue
+ ## Filesystem Structure
  
- FS is part of an organized collection of files &  directives.It's like a database to manage files.
+ FS is part of an organized collection of files &  directives. It's like a database to manage files.
  
- FS has $ major components
- * Bootblock
+ FS has 4 major components
+ 
+ *  Bootblock
  *  SuperBlock
  *  Innode table
  *  Data Blocks
