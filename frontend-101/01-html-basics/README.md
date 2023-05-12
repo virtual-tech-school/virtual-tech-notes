@@ -31,6 +31,7 @@ Anything from the opening tag to the closing tag is known as HTML element. All H
 Attributes are way to provide additional information about the tags. It is always defined in opening tag.<br>
 Attributes always come in name="value" pairs.
 <hr>
+
 <h2><strong>Some Common HTML tags </strong></h2>
 1. <strong>Heading</strong> : h1 to h6 , h1 is largest in size and most important whereas h6 is smallest in size and least important.<br>
 2. <strong>Paragraph</strong> : to write paragraph texts.<br>
@@ -39,13 +40,16 @@ Attributes always come in name="value" pairs.
 4.<strong>Images </strong> : img tag for images.
 <br>
 <h4>It has following attributes: </h4>
-1. "src" to add link of the image.<br>
-2. "alt" - alternative text that will appear when image fails to load.<br>
-3. "width" & "height"  - value default in pixels.<br>
-<h4>Types of urls(Uniform Resource Locator):</h4>
-1. <em>absolute url</em> : Links that are hosted on other website.<br>
-2. <em>relative url</em> : Links that are hosted within website.<br>
-"title" attribute : if you hover over the content this title comes.
+
+- "src" to add link of the image.<br>
+- "alt" - alternative text that will appear when image fails to load.<br>
+- "width" & "height"  - value default in pixels.<br>
+<h4>Types of URL(Uniform Resource Locator):</h4>
+
+- <em><b>Absolute URL</b></em> : Links that are hosted on other website.<br>
+- <em><b>Relative URL</b></em> : Links that are hosted within website.<br>
+
+> Note: "title" attribute : if you hover over the content, you will see this title
 <hr>
 <h2><strong>Style attributes</strong></h2>
 In HTML, style attribute comes in pair.<br>
@@ -58,8 +62,9 @@ For eg:<br>
  <li> font-family</li>
  <li> font-size </li>
  <li> text-align </li>
- <li> margin -> adds some space out of box </li>
- <li> padding -> adds space inside of box
+ <li> border </li>
+ <li> margin -> adds some space outside the box </li>
+ <li> padding -> adds space inside the box
 </li>
 </ul>
 <h3> <strong>Color representation</strong> </h3>
@@ -72,40 +77,23 @@ For eg:<br>
      hsla a for opacity similar to rgba.</li>
  </li>
 </ul>
-1.<strong>hue</strong> : degree on color wheel (value 0 to 360) 0 is red, 120 is green, 240 is blue. <br>
-2.<strong>saturation</strong> : % value to give a shade of grey ( 0% max shade of grey, 100% no shade of grey).<br>
-3.<strong>lightness </strong> : % value where 0 is black and 100% is white.<br>
+1. <strong>hue</strong> : degree on color wheel (value 0 to 360) 0 is red, 120 is green, 240 is blue. <br>
+2. <strong>saturation</strong> : % value to give a shade of grey ( 0% max shade of grey, 100% no shade of grey).<br>
+3. <strong>lightness </strong> : % value where 0 is black and 100% is white.<br>
 <hr>
 
 <h2> <strong>CSS (cascading style sheet)</strong> </h2>
 CSS is used to format layout of a web page.It is very helpful as it helps setting layout for multiple pages at once. <br>
 Cascading means whatever you apply to parent tag gets applied to children tag as well. <br>
 <h3><strong>CSS can be added to HTML in 3 ways:</strong></h3>
-1. <strong>Inline CSS</strong> : using style attribute. <br>
+1. <strong>Inline CSS</strong> : using style attributes inside the HTML code. <br>
 2. <strong>Internal CSS</strong> : if we add a &ltstyle&gt..&lt/style&gt tag inside head tag.<br>
-3. <strong>External CSS</strong> : adds style in different file and add a link in HTML file.<br>
+3. <strong>External CSS</strong> : adds style in a separate file with .css extension and link it in the HTML file.<br>
 
 <h3><strong>Linking css style sheet:</strong></h3>
 <code>&ltlink rel = "stylesheet" href="style.css"&gt </code><br>
 
 <h3><strong> Comments in HTML </strong></h3>
 <code>  &lt!--...--&gt  </code> <br>
-Comments are not displayed in the browsers. You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code.
+Comments are ignored by the browser and are not displayed as content on the screen. You can use comments to explain your code, which can help you when you are working with that code later in time. This is especially helpful when you have a lot of code.
 <hr>
-
-
-
-
- 
-
-
-
-
-
-
-    
-
-    
- 
-
- 
