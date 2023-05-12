@@ -184,7 +184,7 @@ You can also give multiple classes to an element by separating the class names w
 
 ## id Attribute
 
-Unlike a class that can be represent multiple elements, id attribute is used to specify a unique ID for an HTML element.
+Unlike a class that can represent multiple elements, id attribute is used to specify a unique ID for an HTML element.
 
 You should not have more than one element with the same ID in an HTML document.
 
@@ -192,7 +192,7 @@ It can be used to point to a specific style declaration in a style sheet, and it
 
 It is represented in CSS with a hashtag (#).
 
-The major difference between a class and an id is that class name can be used by multiple HTML elements, while an ID name must only be used by one HTML element with the page. 
+The major difference between a class and an id is that the class name can be used by multiple HTML elements, while an ID must only be used by one HTML element with in the page. 
 
 <hr>
 
@@ -200,7 +200,7 @@ The major difference between a class and an id is that class name can be used by
 
 It is used by a web page to allow readers to jump to a specific part of a web page.
 
-They can be useful if your page is very long.
+They can be very useful when your page is too long.
 
 To use a bookmark, you can give an ID to any element you want to bookmark, and then add a link to it.
 
