@@ -28,7 +28,7 @@ Contribute notes based on [this](https://www.youtube.com/watch?v=fkKfKsASjV4&lis
 | Stages all file                      | `git add .`                     |
 | Viewing the status                   | `git status`                    |
 | Commits with a one-line message      | `git commit -m "Message"`       |
-| Displays changes between current and last committed version of the file| `git diff filename`       |
+| Displays changes between current and last committed version of files   | `git diff`       |
 | Creates a new branch                 | `git branch branchName `        |
 | Switches to the another branch       | `git checkout branchName`       |
 | Deletes the branch                   | `git branch -d branchName`      |
