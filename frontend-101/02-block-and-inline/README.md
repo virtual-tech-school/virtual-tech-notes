@@ -154,13 +154,13 @@ An Inline Element does not start with a new line and it only takes up as much wi
 
 ## &lt;div&gt; &lt;/div&gt; Element
 
-It is often used as a container for other HTML elements. It doesn't have any required attributes, but it can usse
+It is often used as a container for other HTML elements. It doesn't have any required attributes, but it can use
 
 1. style
 2. class
 3. id
 
-It can be used to used to style block of elements with CSS
+It can be used to style block of elements with CSS
 
 
 ## &lt;span&gt; &lt;/span&gt; Element
