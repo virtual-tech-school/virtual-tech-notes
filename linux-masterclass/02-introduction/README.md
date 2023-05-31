@@ -10,12 +10,22 @@ ___
 ## **What is Bootloader?**
 
 It is a program that is responsible for initializing the *Operating System.*
+One commonly used bootloader in Linux systems is GRUB (Grand Unified Bootloader). It is a flexible and powerful bootloader that supports multiple operating systems and provides a menu for selecting which one to boot.
+
+
 
 ___
 
  ## **What is OS (Operating System)?**
  
  An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs. 
+ some examples of popular operating systems:
+ Linux
+ Mac OS
+ Windows
+ Solaris
+
+
  
  ___
 ## **An operating system should have :**
@@ -37,20 +47,22 @@ It is also known as bridge between *Software* and *Hardware.*
 ___
 
 ## **What are Most Popular OS ?**
-- Microsoft Windows
-- Mac OS (Only on apple)
-- Linux (UNIX based)
-- Android 
-- iOS (iPhone Operating system)
+- Microsoft Windows.
+- Mac OS (Only on apple).
+- Linux (UNIX based).
+- Android.
+- iOS (iPhone Operating system).
 ___
 
 ## **Why use Linux?**
- - Open Source 
- - Support almost all *Programming Languages*
- - Developer Friendly
- - Terminal is superior to CMD
- - Bash Scripting 
- - SSH (Secure Shell)
+ - Open Source.
+ - Support almost all *Programming Languages*.
+ - Developer Friendly.
+ - Terminal is superior to CMD.
+ - Bash Scripting .
+ - SSH (Secure Shell).
+ - Easily Customizable.
+ - Provides better Aesthetics.
  ___
 
   ## **History of Linux**
