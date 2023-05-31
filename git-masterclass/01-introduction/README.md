@@ -22,10 +22,10 @@ Contribute notes based on [this](https://www.youtube.com/watch?v=LQ2LTPHeTts&lis
 
 Git is a **Version Control System (VCS)** for your files
 
-- It reverts a selected file/entire project back to previous state
-- Compares changes
-- Helps in identification of who modified the files that is causing some issue
-- Helps in identification of who introduced an issue and when
+- It reverts a selected file/entire project back to previous state.
+- Compares changes.
+- Helps in identification of who modified the files that is causing some issue.
+- Helps in identification of who introduced an issue and when.
 
 # 02 Version Control System (VCS)
 
@@ -44,7 +44,7 @@ Git is a **Version Control System (VCS)** for your files
 
 #### Problems:-
 
-- Since , stored locally collaboration with other developer or a team is not possible.
+- Since, stored locally collaboration with other developer or a team is not possible.
 - If anything happens to local database , all the patches would be lost.
 - If anything happens to single version , all the changes made after that version would be lost.
 
@@ -81,11 +81,11 @@ The Linux kernel is an open source software project of fairly large scope. Durin
 
 In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community (and in particular Linus Torvalds, the creator of Linux) to develop their own tool based on some of the lessons they learned while using BitKeeper. Some of the goals of the new system were as follows:
 
-- Speed
-- Simple design
-- Strong support for non-linear development (thousands of parallel branches)
-- Fully distributed
-- Able to handle large projects like the Linux kernel efficiently (speed and data size)
+- Speed, Git was designed to be faster than it's counterparts.
+- Simple design, Git was made keeping in mind, it shouls be easy to learn.
+- Strong support for non-linear development (thousands of parallel branches).
+- Fully distributed.
+- Able to handle large projects like the Linux kernel efficiently (speed and data size).
 
 Since its birth in 2005, Git has evolved and matured to be easy to use and yet retain these initial qualities. It’s amazingly fast, it’s very efficient with large projects, and it has an incredible branching system for non-linear development
 
