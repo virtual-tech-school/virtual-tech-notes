@@ -1,6 +1,6 @@
 Those who would like to make improvements in the future - You can help us improve notes based on [this](https://www.youtube.com/watch?v=cnbvsWKf-qM&list=PL2kSRH_DmWVZp_cu6MMPWkgYh7GZVFS6i&index=5) video.
 # Processes
-Processes are just programs that are running on linux machine. This processes are generally managed by kernel and each process have a **PID**(process id). Process
+Processes are just programs that are running on linux machine. Any command that we execute starts a proccess. These processes are generally managed by kernel and each process have a **PID**(process id) which is used to uniquely identify each process. Processes
 are terminated when terminal associated with it is closed.
 
 ## General commands of processes
@@ -28,7 +28,7 @@ graph TD;
  
 ### Demon Process
 
-Demon process are the **child process** of mother. This are responsible for keeping the system running.
+Demon processes are the **child process** of mother. These are responsible for keeping the system running.
     
 ```mermaid
 graph TD;
@@ -104,4 +104,36 @@ Signal mask is used to block signals but there are some signals like *kill* cann
 |  `D` | Uninterruptable sleep |
 |  `Z` | Zombie |
 |  `T` | Stopped |
+
+## Process can be run in two ways
+1. Foreground Process
+   
+   Whenever a process starts, it runs in the foreground by default, receives input from the keyboard, and sends output to the screen. For instance, we can execute the following command:
+   ```
+   echo "hello world!"
+   ```
+   What if we execute **cat** command only:
+   ```
+   $ cat
+   ```
+   This command is  still executing and waiting for further input. No other process can be started since this process is still under execution.  
+3. Background Process
+
+   It operates in the background, only engaging when keyboard input is needed. This enables parallel execution of tasks without waiting for prior processes to finish. We can run a  process in the background by adding **&** at the end of a command.
+   ```
+   $ cat &
+   ```
+   We can see all the background processes with the following command
+   ```
+   $ jobs
+   ```
+   We can also bring the background process to the foreground
+   ```
+   $ fg %[job id]
+   ```
+   we can also kill background process
+   ```
+   $ kill %[job id]
+   ```
+   
 
