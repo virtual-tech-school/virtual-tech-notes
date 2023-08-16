@@ -46,6 +46,22 @@ Attributes always come in name="value" pairs.
 1. <em>absolute url</em> : Links that are hosted on other website.<br>
 2. <em>relative url</em> : Links that are hosted within website.<br>
 "title" attribute : if you hover over the content this title comes.
+
+<strong>details </strong> tag in html :
+
+The <details> element is used to create a disclosure widget, allowing you to provide additional information that can be toggled open or closed by the user. It's often used to hide or show additional content, like a dropdown panel.
+
+<details>
+  <summary>Click to reveal more</summary>
+  <p>Hidden content here.</p>
+</details>
+
+In this example:
+
+The <details> element acts as a container for the hidden content.
+The <summary> element provides a clickable title for the disclosure widget.
+When the user clicks on the summary, the hidden content (in this case, the paragraph)isrevealed.
+
 <hr>
 <h2><strong>Style attributes</strong></h2>
 In HTML, style attribute comes in pair.<br>
