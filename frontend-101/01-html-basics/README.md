@@ -47,6 +47,8 @@ Attributes always come in name="value" pairs.
 2. <em>relative url</em> : Links that are hosted within website.<br>
 "title" attribute : if you hover over the content this title comes.
 
+<br>
+
 <strong>details </strong> tag in html :
 
 The <details> element is used to create a disclosure widget, allowing you to provide additional information that can be toggled open or closed by the user. It's often used to hide or show additional content, like a dropdown panel.
