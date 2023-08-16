@@ -46,6 +46,31 @@ Attributes always come in name="value" pairs.
 1. <em>absolute url</em> : Links that are hosted on other website.<br>
 2. <em>relative url</em> : Links that are hosted within website.<br>
 "title" attribute : if you hover over the content this title comes.
+<br/>
+<strong>picture<strong>: picture tag for image.
+ The <picture> tag in HTML is used to provide a flexible and effective way to display different images based on various conditions, such as screen size, resolution, and device capabilities. It's primarily used for responsive design and optimizing image delivery for different contexts.
+
+Here is an example of using the <picture> element with media queries in HTML:
+
+````html
+<picture>
+    <!-- Source for larger screens -->
+    <source media="(min-width: 768px)" srcset="large-image.jpg">
+    
+    <!-- Source for medium screens -->
+    <source media="(min-width: 576px)" srcset="medium-image.jpg">
+    
+    <!-- Default source for smaller screens -->
+    <img src="small-image.jpg" alt="Responsive Image">
+</picture>
+
+By using media queries, the code ensures that:
+
+On screens with a width of 768 pixels or more, the large-image.jpg is displayed.
+On screens with a width of at least 576 pixels but less than 768 pixels, the medium-image.jpg is displayed.
+For screens below 576 pixels (small screens), the default small-image.jpg is used.
+
+This approach allows the webpage to serve different image sizes based on the user's device, optimizing both image quality and performance for various screen sizes. Responsive images like these are a key part of creating a user-friendly and visually appealing responsive design. 
 <hr>
 <h2><strong>Style attributes</strong></h2>
 In HTML, style attribute comes in pair.<br>
