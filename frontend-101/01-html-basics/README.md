@@ -48,6 +48,7 @@ Attributes always come in name="value" pairs.
 "title" attribute : if you hover over the content this title comes.
 
 <br>
+<br>
 
 <strong>details </strong> tag in html :
 
