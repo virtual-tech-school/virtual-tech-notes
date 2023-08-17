@@ -65,6 +65,8 @@ The <details> element acts as a container for the hidden content.
 The <summary> element provides a clickable title for the disclosure widget.
 When the user clicks on the summary, the hidden content (in this case, the paragraph)isrevealed.
 
+you can visit to [mdn-docs](https://developer.mozilla.org/en-US/docs/Web/HTML)for more information.
+
 <hr>
 <h2><strong>Style attributes</strong></h2>
 In HTML, style attribute comes in pair.<br>
