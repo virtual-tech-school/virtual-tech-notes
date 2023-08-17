@@ -12,6 +12,7 @@ HTML has different tags to do different things.
  <li>Ones that does not hold any content &lttag&gt (self closing tags). </li>
 </ul>
 Tags are not case sensitive (good practice to do all in smallcase)
+
 <hr>
 
 ## **Understanding boilerplate of HTML** ##
