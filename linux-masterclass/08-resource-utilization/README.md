@@ -46,7 +46,7 @@ Whatever happening in our system is getting saved as logs in `/var` directory .
   logs are created via service `syslog` which is implemented by syslogd daemon and sends all info to system logger.
 
 ## Logrotate
-Designed to ease administration of system that generates large no.of log files by allowing removal ,rotation ,compression and maling of log files.
+Designed to ease administration of system that generates large no. of log files by allowing removal ,rotation ,compression and mailing of log files.
 
 ```
 ls /etc/logrotate.log
@@ -60,4 +60,4 @@ cat /etc/logrotate.log/apt
 
 ![image](https://user-images.githubusercontent.com/120579608/229374626-9ae0285f-05a2-4788-ae40-6e2ee05ad8f2.png)
 
- In the above example when we observe the apt log file ,we can observe configuration settings. 
+ In the provided example, when we examine the apt log file, we notice configuration settings.

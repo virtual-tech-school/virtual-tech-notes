@@ -5,7 +5,7 @@ Contribute notes based on [this](https://www.youtube.com/watch?v=xVaC_G6aeH0&lis
 What happens when we execute a command? Linux by default has 3 standard streams:
 <ul>
  <li> stdin (standard input)   code - 0</li>
- <li>stdout (standard output) code - 1</li>
+ <li> stdout (standard output) code - 1</li>
  <li> stderr (standard error)  code - 2</li> 
 </ul>
 Stream's job is to transfer data (simple text), takes input and gives output.<br>

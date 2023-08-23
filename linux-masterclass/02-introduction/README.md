@@ -46,7 +46,7 @@ ___
 
 ## **Why use Linux?**
  - Open Source 
- - Support almost all *Programming Languages*
+ - Supports almost all *Programming Languages*
  - Developer Friendly
  - Terminal is superior to CMD
  - Bash Scripting 
@@ -75,14 +75,14 @@ As a beginner you should start out with Ubuntu.
 ## **Why Ubuntu than any other distribution?**
 - It is Beginner Friendly
 - It has a decent UI (user interface)
-- Ease to use for non-programmer also
+- Ease of use for non-programmer also
 
 >Fun fact : Linux is all about of Keyboard
 ___
 
 ## **What is Terminal?**
 
-A terminal(black window) is a tool where we are going to write our commands.Start terminal using this command : `ctrl+alt+t` or you can press windows button and type terminal.
+A terminal(black window) is a tool where we are going to write our commands. Start terminal using this command : `ctrl+alt+t` or you can press windows button and type terminal.
 ___
  
  ## **What is SHELL?**
@@ -133,10 +133,10 @@ You can use this way `~$ cd ~/home`
 |                Task                          |          Command                 |
 |----------------------------------------------|----------------------------------|
 |List files                                    |`ls`                              |
-|Changed directory                             |`cd <Directory name> `            |
+|Change directory                             |`cd <Directory name> `            |
 |Clean the terminal                            |`clear`                           |
 |Make directory                                |`mkdir <Directory name>`          |
-|Make file                                     |`touch <File name>`               |
+|Make file                                     |`touch <file name>`               |
 |Reads data and opens in the terminal          |`cat <file name>`                 |
 |Previously executed commands                  |`history`                         |
 |Short discription of the command              |`whatis <command>`                |
