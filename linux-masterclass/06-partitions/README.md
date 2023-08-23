@@ -31,12 +31,12 @@ ls -l /dev
 * /sbin -> system binaries which are run by the root
 ## Journaling
 Used to repair any inconsistencies that occur as the result of an improper shutdown of the computer
-Suppose you were copying a file, if the system then also we can able to identify the currupt file by using *journaling*.
+Suppose you were copying a file, if the system crashes then also we can able to identify the currupt file by using *journaling*.
 
 ## Desktop file types
-|Destop file types| Description|
+|Desktop file types| Description|
 |---|---|
-| ext 4 | latest & standard choice of file system which support disk space of 1exabyte of file sixe 16 TB|
+| ext 4 | latest & standard choice of file system which supports disk space of 1exabyte of file sixe 16 TB|
 | Btrfs| Butter/Better file system and it is not stable than other|
 | XFS |  high performance journaling file system generally good for servers|
 | NTFS & FAT| windows file system|
@@ -46,41 +46,41 @@ To check filesystem of linux :-
 ```
 df -T
 ```
-We can create multiple partitions in any disk and each parttion act as an individual **block device**.And each block system can act as different filesystem.
+We can create multiple partitions in any disk and each partition act as an individual **block device**. And each block system can act as different filesystem.
 
-## Nodes and innodes
-Nodes tables are just like dtabase to manage files .In this table each file or directory has innode and contains the information about the file.
+## Nodes and inodes
+Nodes tables are just like database to manage files. In this table each file or directory has inode and contains the information about the file.
 
 ### Partition Table
 To check how a disk is partitioned.
-THere are two main parttion schemes
-* MBR -> Mast er Boot Record  
-* GRT -> GUID partition table
+There are two main parttion schemes
+* MBR -> Master Boot Record  
+* GPT -> GUID partition table
 ## MBR
-  It is a traditional partition table ,supports the disk upto *2TB*. WHich has linmitations of 4 parts only known as *primary partitions*. Out of these 4 we can create one extended partition & in that can create multiple logical partitions same as creating primary partitions.
+  It is a traditional partition table ,supports the disk upto *2TB*. Which has limitations of 4 parts only known as *primary partitions*. Out of these 4 we can create one extended partition & in that we can create multiple logical partitions same as creating primary partitions.
  
  ### GPT
  
- This is new standard each partition has globally unique ID(GUID) and usually used with UEFI based looting .
+ This is new standard, each partition has globally unique ID(GUID) and usually used with UEFI based booting .
  
  ## Filesystem Structure
  
- FS is part of an organized collection of files &  directives. It's like a database to manage files.
+ FS is part of an organized collection of files &  directories. It's like a database to manage files.
  
  FS has 4 major components
  
- *  Bootblock
+ *  BootBlock
  *  SuperBlock
- *  Innode table
+ *  Inode table
  *  Data Blocks
 
 # Inode
-   Inode, short of index node tables are just like database to manage files in this table  each file or directory has inode & it generally describes all the info about file. Contains everything execpt for file & it's  name , also contains pointers to datablocks of file.
-  When file system is created ,some space for the innodes is also allocated as well.
+   Inode, short of index node tables are just like database to manage files in this table each file or directory has inode & it generally describes all the info about file. Contains everything except for file & it's  name , also contains pointers to datablocks of file.
+  When file system is created ,some space for the inodes is also allocated as well.
  ```
  df -i
  ```
-This is the command to check how many innodes are availabele.
+This is the command to check how many inodes are available.
 
 ```
 ls -li
@@ -88,4 +88,4 @@ ls -li
 This is the command to check inodes number.
 ### How do inodes work and locate file
 ![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/120579608/234055609-51a0d8d1-0e67-4e1c-9091-71c7c2c48f18.png)
-Innode points to the actual data block of file in the file system. Each and every innode contains 15 pointers.When a file is created on a file system, the file system allocates a new inode and stores the file's metadata in the inode data structure. The file system also allocates the necessary data blocks to store the file's contents and links them to the inode by storing their addresses in the inode's data block pointers.
+Inode points to the actual data block of file in the file system. Each and every inode contains 15 pointers. When a file is created on a file system, the file system allocates a new inode and stores the file's metadata in the inode data structure. The file system also allocates the necessary data blocks to store the file's contents and links them to the inode by storing their addresses in the inode's data block pointers.

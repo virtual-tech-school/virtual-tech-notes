@@ -33,7 +33,7 @@ Contribute notes based on [this](https://www.youtube.com/watch?v=hxNFeL2qY-k&lis
 
 # Users-and-permissions
 
-Linux, being a truly multi-user, multi-namespace OS, offers a lot of options when it comes to user management
+Linux, being a truly multi-user, multi-namespace OS, offers a lot of options when it comes to user management.
 
 ### What are users and groups?
 
@@ -260,9 +260,9 @@ So, the syntax goes like this:
 <username> <allowed hosts>=(<allowed users>:<allowed groups>) <allowed_commands>
 ```
 
-The next line starts with a `%` sign. That means that that rule applies to any user in the `sudo` group. This is convenient because you do not have to edit this file when creating new users, instead, you can add them to `sudo` group.
+The next line starts with a `%` sign. Which means, that rule applies to any user in the `sudo` group. This is convenient because you do not have to edit this file when creating new users, instead, you can add them to `sudo` group.
 
-Now, there may be cases when you need to login as genuine `root`. The `su` command switches current user to `root`, and if you run it with `sudo`, you will be able to switch to `root` using your own password:
+Now, there may be cases when you need to login as genuine `root`. The `su` (switch user) command switches current user to `root`, and if you run it with `sudo`, you will be able to switch to `root` using your own password:
 
 ```
 $ whoami          // michael
@@ -498,7 +498,7 @@ How to set permissions for a directory and all of its contents by using symbolic
 
 ### Sticky bit
 
-The permission system in Linux has one interesting concept, called the sticky bit. A sticky bit is a parameter that can be set on any directory. It prohibits anyone other than the owner from deleting or renaming files in it. Notice, that other users may or may not be able to edit the file. Even if they can edit it, with teh sticky bit only the owner can delete or rename the file. You can set the sticky bit on a folder with this command:
+The permission system in Linux has one interesting concept, called the sticky bit. A sticky bit is a parameter that can be set on any directory. It prohibits anyone other than the owner from deleting or renaming files in it. Notice, that other users may or may not be able to edit the file. Even if they can edit it, with the sticky bit only the owner can delete or rename the file. You can set the sticky bit on a folder with this command:
 
 ```
 $ chmod +t someDirectory/

@@ -4,7 +4,7 @@ Contribute notes based on [this](https://www.youtube.com/watch?v=08SwnaMhL1k&lis
 
 ## Stages of boot process
 ### 1. BIOS 
-basic input output system. It initialises the hardware, it makes sures the hardware is good to go , by running self tests in which it checks , memory is good , hdd, ssd etc. 
+basic input output system. It initialises the hardware, it makes sures the hardware is good to go , by running self tests in which it checks , memory is good, hdd, ssd etc. 
 Main job of Bios is to load the bootloader.
 
 ### 2. Bootloader 
@@ -14,13 +14,13 @@ Commonly used boot loader --> GRUB bootloader
 ### 3. Kernel 
 As soon as it is loaded, it immediately initialises the memory and the devices that are there in the system.
 Main job is to load the init process or mother process.
-Init process- starts and stops all the essential process is it is very first process (mother process)
+Init process- starts and stops all the essential process; It is the very first process (mother process)
 
 # Levels of abstraction of Linux OS
 ### 1. Hardware
-CPU,memory ports , HDD , SSD etc.Physical layer which computes what our system is doing.
+CPU, memory ports, HDD, SSD etc. Physical layer which computes what our system is doing.
 ### 2. Kernel 
-Responsible for handling processes, memory, device communication, setting up entire file system,also responsible for for system calls.
+Responsible for handling processes, memory, device communication, setting up entire file system, also responsible for for system calls.
 ### 3. User Space
 All we see in front of us, apps comes under user space.
 

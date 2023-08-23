@@ -18,34 +18,34 @@ process) by requesting the kernel. Kernel decides the resources to the process.
 
 ```mermaid
 graph TD;
-    init-->|fork system call|gnemeProcess
-    gnemeProcess-->|fork system call|BashProcess;
+    init-->|fork system call|gnomeProcess
+    gnomeProcess-->|fork system call|BashProcess;
     BashProcess-->|fork system call| process;
 ```
 ### Mother Process
 
- Mother Process is the **first process** initiated by the kernel when system **boot up** which has PID of **1**. Mother process is also known as **init** and this process runs on **root** previledge.
+ Mother Process is the **first process** initiated by the kernel when system **boot up** which has PID of **1**. Mother process is also known as **init** and this process runs on **root** privileges.
  
-### Demon Process
+### Daemon Process
 
-Demon process are the **child process** of mother. This are responsible for keeping the system running.
+Daemon process are the **child process** of mother. This are responsible for keeping the system running.
     
 ```mermaid
 graph TD;
-    init-->DemonProcess1;
-    init-->DemonProcess2;
-    init-->DemonProcess3;
-    init-->DemonProcess4;
+    init-->DaemonProcess1;
+    init-->DaemonProcess2;
+    init-->DaemonProcess3;
+    init-->DaemonProcess4;
 ```
 
 ## How process terminates
- Termination of process is done by **exit system call** and **wait system call** . Kernel known whether the process is terminated or not by **termination status**. For the successful process termination status is **0**. Termination process includes the cleaning of resources utilized by the process.
+ Termination of process is done by **exit system call** and **wait system call** . Kernel knows whether the process is terminated or not by **termination status**. For the successful process termination status is **0**. Termination process includes the cleaning of resources utilized by the process.
  
 ### Wait system call
  Parent process should acknowledge the kernel by **wait system call** for completion of termination process of child. The wait system call is used by a parent process to wait for its child process to terminate and obtain its termination status.
  
 ### Orphan Process
-  If parent process dies,then the child process of it is adoped to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowlegde the termination process by wait system call. In this case, the child process is known as **orphan process**.
+  If parent process dies,then the child process of it is adopted to the **mother**(init) by the kernel for termination of the process. So, that mother can able to acknowledge the termination process by wait system call. In this case, the child process is known as **orphan process**.
 
 ```mermaid
 graph TD;
@@ -55,7 +55,7 @@ graph TD;
 ```
 
 ### Zombie Process
- When the child process termination is not acknowledge by the parent ,then the child process is treated as **zombie process** by the kernel.Further,if parent process acknowlegde the zombie process termination then this is known as **reaping**. If reaping didn't occurs then the **wait system call** is done by mother to terminate **zombie process**.
+ When the child process termination is not acknowledge by the parent ,then the child process is treated as **zombie process** by the kernel. Further,if parent process acknowledge the zombie process termination then this is known as **reaping**. If reaping didn't occurs then the **wait system call** is done by mother to terminate **zombie process**.
 
 # Signals
  It is a notification to the process that something has happened.
@@ -65,7 +65,7 @@ graph TD;
 |  Signal |  Description |
 | ------------- | ------------- |
 |  `SIGHUP/HUP/1` |  HangUp |
-| `SIGINT/INT/2`  | Interput  |
+| `SIGINT/INT/2`  | Interrupt  |
 | `SIGKILL/KILL/9`  |  Kill | 
 |  `SIGSEGV/SEGV/11` | Segmentation fault  |
 | `SIGTER/TERM/15`  | Terminate  |
@@ -74,7 +74,7 @@ graph TD;
 
 ### Nice & Renice
 
-Processes aren't continously run by the system.They are know in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time. But, we can prioritize the process by **nice & renice** command. And every process has nice which indicates priority value. If the nice value is less,the system will prioritize more or vice versa.
+Processes aren't continously run by the system. They are divided in timeslots known as time slice in CPU and as cyclic as shown in below example. So, the process will take almost same time. But, we can prioritize the process by **nice & renice** command. And every process has nice which indicates priority value. If the nice value is less,the system will prioritize more or vice versa.
 
 ---
 Process cycle in CPU
@@ -93,7 +93,7 @@ flowchart LR
 
 ### Signal Mask
 
-Signal mask is used to block signals but there are some signals like *kill* cann't be blocked.
+Signal mask is used to block signals but there are some signals like *kill* can't be blocked.
 
 # States of process
 
